@@ -7,42 +7,56 @@ SHARP = '^'
 FLAT = '_'
 ACCIDENTALS = set({'^', '_'})
 NEW_SONG = 'K:'
+CHORD_OR_QUOTE = '"'
 
 testlist = []
 
-with open("gdata.txt", encoding="latin-1") as f:
+with open("melodies/gdata.txt", encoding="latin-1") as f:
     file = f.read()
 
 rows = file.split('\n')
 
+chord_or_comment = False
 new_note = None
 previous = None
 for row in rows:
     if NEW_SONG in row:
+        # start new melody and reset variables
         if previous:
             testlist.append(new_melody)
+            previous = None
         new_melody = []
-        previous = None
     for symbol in row:
+        # skip over chord notation and possible written comments
+        if symbol == CHORD_OR_QUOTE:
+            if not chord_or_comment:
+                chord_or_comment = True
+            else:
+                chord_or_comment = False
+        if chord_or_comment:
+            continue
         if symbol in VALID_NOTE_NAMES:
+            # build regular notes
             if previous not in ACCIDENTALS:
                 if new_note:
                     new_melody.append(new_note)
                 new_note = symbol
+            # build sharp and flat notes
             elif previous == SHARP:
                 new_note = SHARP+symbol
             elif previous == FLAT:
                 new_note = FLAT+symbol
         elif symbol == OCTAVE_JUMP and previous in VALID_HIGHER_OCTAVE_NOTES:
+            # build notes in highest octave
             if new_note:
                 new_note += symbol
                 new_melody.append(new_note)
                 new_note = None
         else:
+            # add previously built note to list in case of non-tracked symbol
             if new_note:
                 new_melody.append(new_note)
                 new_note = None
 
+        # update variable 'previous'
         previous = symbol
-
-print(testlist)
