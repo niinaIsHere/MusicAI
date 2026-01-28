@@ -1,16 +1,21 @@
-import data, probabilities, generator
+import data, input, trainer, generator
 
-DATA_FILE = 'melodies/melodies.txt'
+def main():
+    # all_data = 'melodies/ireland.txt'
+    filtered_data = data.filter()
+    parsed_data = data.parse()
 
-raw = data.read_data(DATA_FILE)
-melodies = data.parse_txt_data(raw)
+    # take inputs
+    degree = input.get_degree()
+    seed = input.get_seed(degree)
+    length = input.get_length(len(seed))
 
-probs = probabilities.calculate_probabilities(melodies)
+    trained_trie = trainer.train(parsed_data, degree)
 
-seed = input('Give starting note: ')
-input_length_of_melody = input('Length of generated melody: ')
-length_of_melody = int(input_length_of_melody)
+    generated_melody = generator.generate(trained_trie, seed, length)
+    print(generated_melody)
 
-generated_melody = generator.generate_melody_n_1(seed, length_of_melody, probs)
+if __name__ == main():
+    main()
 
-print(generated_melody)
+    

@@ -1,21 +1,17 @@
-"""
-Generates the final output from user input and the calculated probabilities.
-"""
+import trie, random
 
-import random
-
-def generate_melody_n_1(seed, length, probabilities):
-    # generates a melody with input and probabilities calculated earlier. Generates based on one preceding note.
-    generated_melody = [seed]
-
+def generate(trained_trie, seed, length):
+    generated_melody = [note for note in seed]
+    # generation
     for i in range(length):
-        if seed not in probabilities:
-            print('unknown note')
+        result = trained_trie.find(trained_trie.root, seed)
+        if result == None:
+            print('Nothing like this has ever existed')
             break
-
-        notes = list(probabilities[seed].keys())
-        p_list = list(probabilities[seed].values())
-        prediction = random.choices(notes, weights=p_list)
-        generated_melody.append(prediction[0])
-        seed = prediction[0]
+        candidates, frequencies = result
+        chosen = random.choices(candidates, frequencies)[0]
+        generated_melody.append(chosen)
+        seed.append(chosen)
+        if len(seed) > trained_trie.degree:
+            seed.pop(0)
     return generated_melody
