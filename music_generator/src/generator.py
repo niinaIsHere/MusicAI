@@ -4,7 +4,7 @@ def generate(trained_trie, seed, length):
     generated_melody = [note for note in seed]
     # generation
     for i in range(length):
-        result = trained_trie.find(trained_trie.root, seed)
+        result = trained_trie.find(seed)
         if result == None:
             print('Nothing like this has ever existed')
             break

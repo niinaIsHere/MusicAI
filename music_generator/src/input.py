@@ -1,10 +1,13 @@
-
+from input_validation import validate_degree, validate_length, validate_seed
 
 def get_degree():
-    input_degree = input("Degree: ")
-    degree = int(input_degree)
-    if degree < 0:
-        return "Degree can't be less than 0"
+    while True:
+        input_degree = input("Degree: ")
+        try:
+            degree = validate_degree(input_degree)
+        except:
+            continue
+        break
     return degree
 
 def get_seed(degree):
@@ -21,15 +24,19 @@ def get_seed(degree):
     if seed_set:
         while len(seed) == 0:
             input_seed = input(f"Give your notes (maximum of {degree} notes): ")
-            notes = input_seed.split()
-            if len(notes) > degree:
-                print("Too many notes")
+            try:
+                seed = validate_seed(input_seed, degree)
+            except:
                 continue
-            seed = [note for note in notes]
     return seed
 
 def get_length(seed_length):
-    input_length = input("How long should the generated melody be?: ")
-    length = int(input_length)
+    while True:
+        input_length = input("How long should the generated melody be?: ")
+        try:
+            length = validate_length(input_length, seed_length)
+        except:
+            continue
+        break
     length -= seed_length
     return length

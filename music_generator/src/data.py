@@ -8,8 +8,14 @@ ACCIDENTALS = set({'^', '_'})
 NEW_SONG = 'K:'
 CHORD_OR_QUOTE = '"'
 
+def read_file(file):
+    with open(file, "r", encoding="latin-1", errors="replace") as f:
+        data = f.read()
+    return data
+
 # filtering songs in key of G major from original dataset into a separate file
 def filter():
+
     with open("melodies/ireland.txt", "r", encoding="utf-8", errors="replace") as f:
         file = f.read()
 
