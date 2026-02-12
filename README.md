@@ -1,6 +1,8 @@
+# MusicAI
+
 Application generates melodies in G-major
 
-# Use:
+## Use:
 Clone repository
 
 navigate to the project root, a folder named 'music_generator'
@@ -12,10 +14,10 @@ run the project with command: python src/main.py
 3. If typed 'y', compose the beginning by writing note names separated by a wihtespace only.
 4. Choose the length of the generated melody.
 
-# Määrittelydokumentti
+## Määrittelydokumentti
 
-# Toteutusdokumentti
+## Toteutusdokumentti
 
-# Testausraportti
+## Testausraportti
 
-# Viikkoraportit
+## Viikkoraportit
