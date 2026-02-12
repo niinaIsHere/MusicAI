@@ -22,8 +22,9 @@ def filter(file):
     correct = 'K:G'
     new_song = 'X:'
     found = False
+    output = []
 
-    with open('gdata.txt', 'w') as outfile:
+    with open('melodies/gdata.txt', 'w') as outfile:
         for row in rows:
             if row == correct:
                 found = True
@@ -31,6 +32,8 @@ def filter(file):
                 found = False
             if found:
                 outfile.write(row + '\n')
+                output.append(row)
+    return output
 
 # parsing the filtered data into format that is easily convertable and only holds needed information
 def parse(file):
@@ -47,6 +50,7 @@ def parse(file):
                 testlist.append(new_melody)
                 previous = None
             new_melody = []
+            continue
         for symbol in row:
             # skip over chord notation and possible written comments
             if symbol == CHORD_OR_QUOTE:

@@ -1,0 +1,30 @@
+X:7
+T:Abbey
+O:ireland
+Z: id:dc-reel-1
+M:C
+L:1/8
+K:A Dorian
+B|A3B A2GE|A2GA BddB|A3B AGEF|G3A Bdd:|!
+g|egg2 a2ba|gabg aged|egg2 a2ga|bgaf gedg|!
+egg2 a2bg|agbg aged|egg2 a2ga|bgaf ged|]!
+
+X:9
+K:Gm
+g2| gfe deB|cdd cBA| BF2
+
+X:9
+T:Advil Fragment, The
+O:ireland
+S:Irtrad-l, P. Mulvaney, 10/97
+N:(Possibly copyright, fair use claimed for comment)
+N:North American Broadcast TV, 1997
+M:6/8
+L:1/8
+R:Jig
+K:G
+g2| gfe deB|cdd cBA| BF2
+
+X:9
+K:Gm
+g2| gfe deB|cdd cBA| BF2
