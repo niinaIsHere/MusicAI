@@ -8,18 +8,16 @@ ACCIDENTALS = set({'^', '_'})
 NEW_SONG = 'K:'
 CHORD_OR_QUOTE = '"'
 
-def read_file(file):
+def prep_file(file):
     with open(file, "r", encoding="latin-1", errors="replace") as f:
         data = f.read()
-    return data
+
+    rows = data.split('\n')
+    return rows
 
 # filtering songs in key of G major from original dataset into a separate file
-def filter():
-
-    with open("melodies/ireland.txt", "r", encoding="utf-8", errors="replace") as f:
-        file = f.read()
-
-    rows = file.split('\n')
+def filter(file):
+    rows = prep_file(file)
 
     correct = 'K:G'
     new_song = 'X:'
@@ -35,13 +33,9 @@ def filter():
                 outfile.write(row + '\n')
 
 # parsing the filtered data into format that is easily convertable and only holds needed information
-def parse():
+def parse(file):
+    rows = prep_file(file)
     testlist = []
-
-    with open("melodies/gdata.txt", encoding="latin-1") as f:
-        file = f.read()
-
-    rows = file.split('\n')
 
     chord_or_comment = False
     new_note = None

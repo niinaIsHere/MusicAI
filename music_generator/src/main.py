@@ -1,9 +1,8 @@
 import data, input, trainer, generator
 
 def main():
-    # all_data = 'melodies/ireland.txt'
-    filtered_data = data.filter()
-    parsed_data = data.parse()
+    filtered_data = data.filter('melodies/ireland.txt')
+    parsed_data = data.parse('melodies/gdata.txt')
 
     # take inputs
     degree = input.get_degree()
