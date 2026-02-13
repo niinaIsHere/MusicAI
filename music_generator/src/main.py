@@ -1,7 +1,8 @@
 import data, input, trainer, generator
 
 def main():
-    filtered_data = data.filter('melodies/ireland.txt')
+    key = input.get_key()
+    filtered_data = data.filter('melodies/ireland.txt', key)
     parsed_data = data.parse('melodies/gdata.txt')
 
     # take inputs
@@ -11,7 +12,7 @@ def main():
 
     trained_trie = trainer.train(parsed_data, degree)
 
-    generated_melody = generator.generate(trained_trie, seed, length)
+    generated_melody = generator.generate(trained_trie, seed, length, key)
     print(generated_melody)
 
 if __name__ == main():

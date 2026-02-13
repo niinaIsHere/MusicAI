@@ -1,3 +1,920 @@
-K:G
-g2| gfe deB|cdd cBA| BF2
+K:A
+c|\
+A2c A2c| (e2d) B3| c2c BAB| A3 A2:|
+B|\
+B2c A2B| (d2c) B3| cde edc| c3 B2c|\
+A2c A2c| e2d B3| c2c BAB| A3 A2|]
+
+
+
+
+
+
+K:A
+(3ABc |
+dFFE FGAF | EF (3ABc d3B |
+cBAF E2FA | B2Bc B2AB |
+cBAF ECEF | A2AB A2(3ABc |
+dFFE FGAF | EF (3ABc d3B |
+cBAF E2FA | B2Bc B2AB |
+cBAF ECEF | A2AB AAce |
+f2fe fgaf | ec(3ABc d3B |
+cBAF E2FA | B2Bc B2AB |
+cBAF ECEF | A2AB AAce |
+f2fe fgaf | ec(3ABc d3B |
+cBAF E2FA | B2Bc B2AB |
+cBAF ECEF | A2AB A2 |
+
+
+
+
+
+
+K:A
+fBB ~a3|faf ecB|~A3 cAc|efg aga|fBB ~a3|faf ecB|Ace aga|fec Bce:|
+|:f2b baf|~b3 baf|~a3 aec|Ace aga|fbb fbb|eaa eaa|fec a2a|fec B3:|
+
+
+
+
+
+
+K:A
+B,|A,2 ef edcA|FGAB AGFD|E2 ef ed c2|BcdB cAA:|
+g|:abae c/c/c e=g|fdfa f2 f2|efae cbec|1BABc A/A/A eg:|2BABc A/A/A A|]
+
+
+
+
+
+
+K:A
+E|(A<c)A BAF|d3 d2 z|(A/B/c).A BAF|B3 B2 z|(A<c)A BAF|ded dfa|ecA MBAF|A3 A2:|
+|:(c/d/)|ecA ecA|d3 dfa|ecA ecA|B3 B2 z|AcA BAF|DFA dfa|ecA MBAF|A3 A2:|
+|:d|cAA BFF|AEE fda|ecA BAF|B2 z B2d|.c(A/B/c/A/) .B(G/A/B/G/)|.A(E/F/G/E/) dfa|ecA <BAF|A3 A2:|
+|:e|aga (f/e/d/c/B/A/)|ddd d2f|aga (f/e/d/c/B/A/)|BBB B2 (f/g/)|aga (f/e/d/c/B/A/)|DFA dfa|ecA MBAF|A3 A2:|
+
+
+
+
+
+
+K:A
+E|(A<c)A BAF|d3 d2 z|(A/B/c).A BAF|B3 B2 z|(A<c)A BAF|ded dfa|ecA MBAF|A3 A2:|
+|:(c/d/)|ecA ecA|d3 dfa|ecA ecA|B3 B2 z|AcA BAF|DFA dfa|ecA MBAF|A3 A2:|
+|:d|cAA BFF|AEE fda|ecA BAF|B2 z B2d|.c(A/B/c/A/) .B(G/A/B/G/)|.A(E/F/G/E/) dfa|ecA <BAF|A3 A2:|
+|:e|aga (f/e/d/c/B/A/)|ddd d2f|aga (f/e/d/c/B/A/)|BBB B2 (f/g/)|aga (f/e/d/c/B/A/)|DFA dfa|ecA MBAF|A3 A2:|
+
+
+
+
+
+
+K:A
+a2 a>f|ec a>f|ec a>f|ec BA|\
+a2 a>f|ec a2|ce B>c|BA A2:|*
+|:ce ec|df fA|ce eA|cB BA/B/|\
+ce eA|df f2|ce B>c |BA A2:|
+
+
+
+
+
+
+K:A
+(c/d/)|ecA ecA|ecA ABc|dB=G dBG|dB=G GAB|cBc dcd|efg a z a|age edB|{d}cAAA2:|
+|:(c/d/)|e3 efd|ecA ABc|d2d d=ge|dB=G GAB|cBc dcd|efg a2a|age edB|{d}cAA A2:|
+
+
+
+
+
+
+K:A
+E|ABA Ace|eac B2A|cBA d2B|cAA aec|ABA Ace|eac B2A|cBA d2B|cAA A2:|
+|:a|e2a f2a|e2a fec|efg aec|eac ecA|cBc dcd|eac B2A|cBA d2B|cAA A2:|
+
+
+
+
+
+
+K:A
+ABA c2e|aba ({b}a2)e|gag fgf|ecA TB2e|ABA c2e|aba ({b}a2)e|fed cde|(f<a)c TB2A:|
+||Ace ece|Tfed cBA|Ace efa|ABc TB2A|Ace ece|Tfed cBA|agf ece|(f<a)c TB2A:|
+
+
+
+
+
+
+K:A
+A|"D"(FE/C/) "A"E>F A>B c>A|"D"dc/B/ "A"{B}(ec) "Bm"{c}BA (F/A) z/|"A"(FE/C/) (E>F) A>B"D"c>d|
+"A"ec/A/ "E7"G/d/z/G/  "A"{G}A2 A::e|"A"ag/a/  (3 ecA "D"(3 fdA "A"(3 ecA|(3(CEA) (3(cea) "E"{cd}c>B(B>e)|
+"A"ag/a/ (3ecA "D"(3(FAd) "A"(3 (EAc)|"Bm"(3(DFB) "E7"(E/d/)z/G/ "A"{G}(A2 A) e|"A"{g}ab/a/g/f/ (3ecA "D"(3fdA "A"(3ecA|
+"A"ae/d/ cB/A/ "E"B>BB A/G/|"D"(FG/A/) "A"(EG/A/) "Bm"(DG/A/) "A"{CD}(3 CB,A,|(3(ECA,) "E7"G,/D/z/G,/ "A"(A,2 A,)|]
+
+
+
+
+
+
+K:A
+EC~C2 DCB,C|A,B,CE FECE|FBBA BcBA|Bffe ~f3g|
+ac~c2 eA~A2|cBAF EC~C2|FGAF Eaaf|1 ecBc A2AF:|2 ecBc A2fg||
+|:ae~e2 efed|ce~e2 fece|bffe fgfe|defd B2fg|
+ae~e2 efed|ce~e2 fece|1 fdge afed|cdBc A2fg:|2 fdec dBcA|Bagf eAGF||
+"variations"
+|:EC~C2 DCB,C|~A,3B, CE~E2|FBBA B2AB|cffe ~f3g|
+ac~c2 ecAB|cBAF EA,CE|FAAF Eagf|1 ecdB A2AF:|2 ecdB Aefg||
+|:aeed efed|cAce aece|bffe fgfe|defd Befg|
+aeed efed|cAce aece|1 fAgA afed|cdBc Aefg:|2 fAgA afec|Bagf edcB||
+"whistle version"
+AE~E2 dcBc|~A3e fece|fBBA ~B3A|B2fe fBge|
+acef eA~A2|cBAF eAce|~f3d eaaf|1 ecdB ~A3B:|2 ecdB ~A3e||
+|:aee^d efe=d|ce~e2 fece|bffe f2ef|defd Befe|
+aee^d efe=d|ce~e2 fece|1 ~f3e afed|cABc ~A3e:|2 ~f3e afec|Bagf edcB||
+
+
+
+
+
+
+K:A
+~c3B cBAB|cABA FAEA|EAAB cAce|decd BcdB|
+~c3B cBAB|cABA FAEA|EAAB ceaf|1 ecBc A2AB:|2 ecBc A2fa||
+|:bafa efcf|efce fcef|aeea fece|fcec BcdB|
+~c3B cBAB|cABA FAEA|EAAB ceaf|1 ecBd cAfa:|2 ecBd cAAB||
+
+
+
+
+
+
+K:A
+d|cee Ace|dfa ecA|def ecA|GBB B2d|dee efg|agf ecA|(f/g/a).f ecA|BAA A2:|
+|:d|cAA eAA|(f/g/a).f ecA|cAA eAA|GBB B2d|cAA eAA|(f/g/a).f ecA|agf eac|BAA A2:|
+
+
+
+
+
+
+K:A
+|:e|aga bag|aec Ace|dBG EGB|Acf efg|aga bag|aec Ace|dBG EGB|(c<A)A A2:|
+
+
+
+
+
+
+K:A
+E/-D/|CA,A, B,-CD|EAA GED|EEE F-EE|DB,B, CA,A,|
+CA,A, B,-CD|EAA GED|CCC E-B,C|A,3 A,2E|
+A2B c-AA|BAA GED|E2E E2E|DB,B, CA,A,|
+A2B c-AA|BAA GED|CCC EDB,|A,3 A,2||
+
+
+
+
+
+
+K:A
+~c3B ABcA|BAcA BAFA|EA~A2 fcec|fcec BcAB|
+~c3B ABcA|BAcA BAFA|EA~A2 fcec|BAGB A3B:|
+|:fc~c2 fagf|eg~g2 agfe|cf~f2 cfaf|gfeg fefg|
+afec ABcA|BAcA BAFA|EA~A2 fcec|BAGB A3B:|
+"variations of 1st part"
+|:~c3B ABcA|BAcA BAFA|ABce acec|fcec BcAB|
+~c3B ABcA|BAcA BAFA|EA~A2 fcec|BAGB A3B:|
+
+
+
+
+
+
+K:A
+cB|AFEF ~A3e|fece faaf|ec~c2 ac~c2|fcec BdcB|
+AFEF ~A3e|fece ~f2af|ec~c2 acec|BdcB A2:|
+ed|ceAe ceAc|BE~E2 BcdB|cAAG Acec|BE~E2 BcdB|
+AccB cedc|~B3A BcdB|ABce faaf|eccB cdcB||
+
+
+
+
+
+
+K:A
+E|[E3A3] cBA|ecA aec|[E3A3] cBA|BGE dBG|[E3A3] cBA|ecA aec|fga ecA|dBG A2:|
+|:e|aga fga|gba gfe|aga fga|bag a2 (3e/f/g/|agf edc|fed cBA|fga ecA|dBG A2:|
+
+
+
+
+
+
+K:A
+E2|E2E2 E2F-G|A2A2 AABc|d2B2 c2A2|F2EE E4|\
+E2EE E2GG|A2A2 A-Bc2|ddB2 c2A2|F2E2 E4|
+c2e2 e2cc|B2A2 A2B2|c2cc e2c2|B2A2 B3E|\
+c2c2 e2c2|BBA2 A2B-c|d2B2 c2A2|F2E2 E4|
+E2EE E2F2|A2A2 A-Bc2|d2BB c2A2|F2E2 E4|\
+E2EE E2F2|A2A2 A-Bc2|d2BB c2A2|F2E2 E2z2||
+
+
+
+
+
+
+K:A
+e|c2A Aca|ecA AB=c|B2=G GBG|dBG Bcd|c2A AcA|ecA ABc|
+ded Bcd|ecA A2:|d|c2a aga|efe edc|B2=g gfg|ded dcB|
+[1c2a aga|efe edc|ded Bcd|ecA A2:|[2cBA dcB|edc fed|cBA Bcd|ecA A2|]
+
+
+
+
+
+
+K:A
+"A" ee ff |aa f(e |e)a fe |"E" g3 e|
+e/g/ fe/g/ f|e/g/ f/e/g g|g/f/ e/g/f c|"A" e4 |
+ee/e/ ff/f/ |aa/a/ f(e |e)a ea |"D" f3 a|
+a3/2 b/af |"A" e3/2 f/ef |"E" g/f/e/d/ c/d/B |"A" A4 |
+EA/A/ EA/A/ |FA/A/ EA/A/ |EA/A/ EA |"E" Be2 e|
+B e/e/B e/e/|f e/e/e e/e/|g/f/ e/d/c B|"A" c3 E|
+E A/A/E A/A/|F A/A/E A/A/|E A/A/E A|"D" F3 a|
+a3/2 b/af |"A" e3/2 f/ef |"E" g/f/e/d/ cB |"A" A4 |]
+a3/2 f/ed |cB A2 |]
+
+
+
+
+
+
+K:A
+"Amoroso" A2c2|\
+(BAGA) (BcdB)| (AG)(FE) AGA=G| F2dB A2G2 |1 A4 :|2 A6||\
+B2|\
+B2GB BAGF| GAB2 z2c2|
+{c}B2GB BAGF| HE4 zEFG|\
+A4 BcdB| AGFE AGA=G| {^E}F2 dB {B}A2{A}G2| A6 |]
+
+
+
+
+
+
+K:A
+V:1
+HE2 |]"A" AG Ac ec Ac |"D" d2 df "A" ec Ac |"D" d2 fd "A" c2 ec |
+"B7" B2 BA "E7" Bd cB |"A" AG Ac ec Ac |"D" d2 df "A" ec A2 |"B" ag af "E" ed cB |
+"A" c2 A2 A2 :| |:e2 |]"A" ae ce fe ce |ae ce fe dc |
+"E7" d2 bd "A" c2 ac |"E" B2 BA Bd cB |"A" AG Ac ec Ac |"D" d2 df "A" ec A2 |
+"B7" ag af "E" ed cB |c2 |1 "A" A2 A2 c2 :|2 "A" A2 A4 || |:
+K:D
+"Em" e2 e2 E3 F|G FG AB AB c|"D" d2 d2 D3 E|F Ad BA FE D|
+"Em" e2 e2 E3 F|G FG AB AB c|"Bm" d cB AB AG F|1 "Em" E8 E4 :|2
+"Em" e4 || |:"Em" B2 e2 e3 d|B de fg fe d|"D" A2 d2 d3 c|
+A cd Bf ed f|"Em" e2 B2 g2 B2 |a2 B2 b3 a|"Bm" g fe dB AB d|
+"Em" e8 :|
+
+
+
+
+
+
+K:A
+c2E EDE|F2A A2f|e2c BAB|cec BAB|
+c2E EDE|F2A A2f|e2c BcB|1 A3 A2B:|2 A3 A3||
+|:c2e ede|f2a agf|e2c BAB|c2B BAB|
+c2e ede|f2a agf|e2c BcB|1 A3 A3:|2 A3 A2B||
+
+
+
+
+
+
+K:A
+[A Part]
+00  0          000 0000 1    000   0 00  0 0
+30   3 33  3 3               3 3    3     3 30  3 3
+A,AAB 2c cc|2c cB ABcA|EAAc BABc|dcBA cAAB|2c cc 2c cB|ABcA EAAc|BBGB 2A 2A:|
+[B Part]
+30                     30
+A,AAB 2c cc|BABd 2c 2c|A,AAB 2c cc|BBGB 2A 2A:|
+[C Part]
+0                     0
+2  0  3 22 2003 1303  2  0  3 22 2003 1310
+2e 2c 2A ee|eccc BcAc|2e 2c 2A ee|eccc BcBa:|
+[D Part]
+0
+3
+2B (2rest) 2B BB|BBGB AGAc|2B GB BBGB|1)BBGB 4A:|
+2)BBGB 2A |
+[E Part]
+++++                   ++++
+0000                   0000
+cAEA,|2A BABd 2c|2A 2A cAEA,|2A, 2E 2A|BABc 2A:|
+[F Part]
+E  string:     |2E EE 2F FE| 2E EE 2E  E E |2E EE 2F FE| E  E    :|
+A, string: A,A,|2C CA 2D DA| 2C CA 2B, B,A,|2C CA 2D DA|C B,  2A,:|
+
+
+
+
+
+
+K:A
+P:A
+A,AAB c2 cc|c2 cB ABcA|EAAc BABc|dcBA cAAB|
+c2 cc c2 cB|ABcA EAAc|BBGB A2 A2:|
+P:B
+A,AAB c2 cc|BABd c2 c2|A,AAB c2 cc|BBGB A2 A2:|
+P:C
+e2 c2 A2 ee|eccc BcAc|e2 c2 A2 ee|eccc BcBa:|
+P:D
+B2 z2 B2 BB|BBGB AGAc|B2 GB BBGB|1 BBGB A4:|2 BBGB A2||
+P:E
+cAEA,|A2 BABd c2|A2 A2 cAEA,|A,2 E2 A2|BABc A2:|
+P:F
+A,A,|+C2E2++CE++AE+ +D2F2+ +DF++AE+|+C2E2+ +CE++AE+ +B,2E2+ +B,E++A,E+|
++C2E2+ +CE++AE+ +D2F2+ +DF++AE+|CEB,E A,2:|
+
+
+
+
+
+
+K:A
+f|:ecA BAF|AFE EFA|Bdc BAB|cBB B2f|ecA BAF|AFE EFA|Bdc BAB|1 cAA A2f:|2 cAA A2B||
+|:cee dff|cee ecA|cee dff|ecA B2A|cee dff|cee ecA|Bdc BAB|1 cAA A2B:|2 cAA A2||
+"Variations:"
+a|:ecA BAF|AFE EFA|~c3 BAB|cBB B2a|ecA BAF|AFE EFA|~c3 BAB|1 cAA A2a:|2 cAA A2B||
+|:cee dff|cee ecA|cee a2f|ecA B2A|cee dff|cee ecA|~c3 BAB|1 cAA A2B:|2 cAA A2||
+
+
+
+
+
+
+K:A
+(A/F/)|EAA cAA|eAA cAA|EAA cBA|dBB B2c|A3 cAA|eAA cBA|EFA Bcd|cAA A2:|
+|:(c/e/)|a3 gfe|cef ecA|EAA cBA|dBB Bce|a3 gfe|c2f ecA|EFA Bcd|cAA A2:|
+|:(c/d/|e2)(a/e/ c2)(e/c/|A2)(c/A/ E2) z|A3 cBA|cBB B2(c/d/|e2)(a/e/ c2)(e/c/|A2)(c/A/ E2) z|A3 Bcd|cAA A2:|
+
+
+
+
+
+
+K:A
+c2E EDE|F2A A2f|e2c BAB|cec BAB|
+c2E EDE|F2A A2f|e2c BcB|1 A3 A2B:|2 A3 A3||
+|:c2e ede|f2a agf|e2c BAB|c2B BAB|
+c2e ede|f2a agf|e2c BcB|1 A3 A3:|2 A3 A2B||
+
+
+
+
+
+
+K:A
+E|ABA Ace|a2A A2B|cde dcB|ABA GFE|ABA Ace|a2A A2B|cde dcB|cAA A2:|
+|:E|A3 cBA|cee e2e|a3 f2b|gee e2e|fga ecA|gbe' c'ae|fga c2B|cAA A2:|
+
+
+
+
+
+
+K:A
+cBA eAA|fAA eAA|cBA eAA|fed cBA|
+cBA eAA|fAA eAA|Ace faf|ecA A2B:|
+|:cee ~e3|cea ecA|dff f2e|dff fed|
+cee efe|cea ecA|dcd faf|ecA A2B:|
+
+
+
+
+
+
+K:A
+E/D/|CB,C A,CE|DFA A2E/D/|CB,C A,CE/E/ |DCD B,2E/D/|
+CB,C A,CE|DFA A2A/B/|cBA FEC|DCD B,ED |
+CB,C A,CE|A3 E2E/D/|CCC DCB,|A,3- A,||
+
+
+
+
+
+
+K:A
+E|\
+E>Ac e2f | ecA agf | ecA EAc \
+|1 dcd B2E :|2 BAG A2e:|
+|:\
+ece a2g | bag fga | ecA EAc \
+|1 dcd B2e :|2 BAG A2 :|
+
+
+
+
+
+
+K:A
+c3 A2c|e2F AGF|B2A {A}G2F|E2e efe|\
+cdc B2A|G2B e2B|c3 A2c|B2G E3|
+C2D E2F|E2A GAB|c2F B2G|A2F DAF|\
+e2f ecA|d2F B2G|E2A A2G|A3 A2::
+c/d/|\
+e2c A2f|e2d c2d|e2a {a}g2f|g2e b2g|\
+e2a ac'a|gba {a}g2f|e2g gbg|agf edc|
+d3 d2e|fga fga|g2e e2f|gab gab|\
+agf edc|dcB Bcd|e2E B2G|A3 A2:|
+
+
+
+
+
+
+K:A
+ed|\
+cAAA ABAF|EFAB c2 BA|dBBB BcBA|Bcde fefg|
+aAAA ABAF|EFAB c2 BA|dcde fgaf|edcB A2||e2|
+cA eA fA eA|ceag fedc|dB fB gB aB|dfba gfed|
+cA eA fA eF|EFAB c2 BA|dcde fgaf|edcB A2||
+
+
+
+
+
+
+K:A
+"Andante" E|\
+A2ce {A}G2FE| F2dB {A}G2zA| B2GB e2BA| {A}G2{B}A{G}F E3::
+e|\
+ecA>=G {GF}F2d>e| (f<d)BA {A}G3E| A>cB>d cafd| c2{e}d{c}B A3:|
+
+
+
+
+
+
+K:A
+e|c2A ABA|agf e2d|c2A ABc|d2c Bcd|c2A ABA|agf e2d|c2A BGB|A3 A2:|
+|:e|A2Bc2d|efe e3|d2B Bcd|e2d cBA|f2g agf|e2d c2a|c2A BGB|A3 A2:|
+
+
+
+
+
+
+K:A
+c3 {e}dcd| e2e e3| a2e a2e| {e}d2c B2A|\
+c3 {e}(dcd)| e2e e3| a2e a2e| edB A3::
+[c3C3] [d2D2][eE]| [f2F2][fF] [f3F3]|\
+[B2B,2][c2C2][dD]| [e2E2][eE] [e3E3]|\
+[e2E2][cC] [a2A2][aA]| [e2E2][cC] [a2A2][aA]| \
+[eE][fF][eE] [d2D2][cC]| [c3C3] [B2B,2]z|
+c3 de2| f2f f3| B3 c2d| e2e e3|\
+e2c a2a| e2c a2a| efe {e}d2c| c3 B2::
+c|\
+dcd Bcd| cBc A2c| B2A B2c| B2B B2c| \
+dcd Bcd| cBc Aec| B2A B2c| A2A A2:|
+
+
+
+
+
+
+K:A
+EAA cAA|eAA cAA|EAA cAA|GAB BGE|EAA cAA|eAA cAA|aga ecA|BAA A3:|
+|:aga ecA|cAc efg|aga ecA|BAF Ace|aga ecA|cAc efg|aga ecA|BAA A3:|
+|:EAA cee|dff cee|EAA cee|BAF AFE|EAA cee|dff cee|aga ecA|BAA A3:|
+
+
+
+
+
+
+K:A
+EAA cAA|eAA cAA|EAA cAA|GAB BGE|EAA cAA|eAA cAA|aga ecA|BAA A3:|
+|:aga ecA|cAc efg|aga ecA|BAF Ace|aga ecA|cAc efg|aga ecA|BAA A3:|
+|:EAA cee|dff cee|EAA cee|BAF AFE|EAA cee|dff cee|aga ecA|BAA A3:|
+
+
+
+
+
+
+K:A
+A2(cA) FAED|CEAc BABc|d2(fd) ceAc|dBcA BAFE|A2(cA) FAED|CEAc BABc|defg agaf|edcB A2 z2H||
+||cAeA fAed|cAec dBGB|cAec dBGB|cAeA fA (3efg|aecA BAFE|cAeA fAeg|aega bgeg|afge fdec|dBcA BAFG"_D.C."|]
+
+
+
+
+
+
+K:A
+A2(cA) FAED|CEAc BABc|d2(fd) ceAc|dBcA BAFE|A2(cA) FAED|CEAc BABc|defg agaf|edcB A2 z2H||
+||cAeA fAed|cAec dBGB|cAec dBGB|cAeA fA (3efg|aecA BAFE|cAeA fAeg|aega bgeg|afge fdec|dBcA BAFG"_D.C."|]
+
+
+
+
+
+
+K:A
+"Andante"\
+A2F>A (A/G/)(F/E/) E2| A2c>B A2zA|\
+A2(F>A) {A}G(F/E/)E2| A2c>B A3::\
+A|\
+dcde {g}fe/d/ c>e| dcBA B>A G>E|\
+A>GFA GBGE| d>c Bz e>d cz|\
+ff {g}fe/d/ ceHe2| E2c>B A3:|
+
+
+
+
+
+
+K:A
+"E"EAc EAd|"E"EAc BAF|"E"EAc EAd|"A"cBA ~F3|
+"E"EAc EAd|"A"~c3 efg|"A"aec BAB|1"A" cAA AGF:|2"A" cAA Acd||
+|:"E"~e3 fdf|"E"~e3 ecd|"E"~e3 fga|"A"~A3 AFE|
+"E"~e3 fdf|"E"~e3 efg|"A"aec BAB|1"A" cAA Acd:|2"A" cAA AGF||
+
+
+
+
+
+
+K:A
+E2EF A2AB|ceec BAF2|(3faf ec ABBA|ecBA FBAF|
+E2EF A2AB|ceec BAF2|(3faf ec ABBA|1 ecBc A2AF:|2 ecBc A2af||
+|:ecef a3f|ecBA FAAB|cBBA cBBA|cABA FAaf|
+ecef a3f|ecBA FAAB|cBBA cBBA|1 ceBc A2af:|2 ceBc A2AF||
+
+
+
+
+
+
+K:A
+E|\
+ABA cBA|f3 a2 f|ecA ABc|(F3 F2) E|
+ABA cBA|f3 a2 f|ecA BAB|(A3 A2)||c/d/|
+ece efg|a2 f a2 f|ecA ABc|(F3 F2) E|
+ABA cBA|f3 a2 f|ecA BAB|(A3 A2)||
+
+
+
+
+
+
+K:A
+V:1
+e |{g/4}"A" A2 {G/4}{d/4}{G/4}{e/4}A3/2 B/{g/4}{c/4}{d/4}c {e/4}A{g/4}{c/4}{d/4} ce |{a/4}{g/4}a2 {g/4}a2 {G/4}{d/4}{G/4}ae {g/4}{c/4}{d/4}c{e/4} A|{G/4}{d/4}{c/4}"D" d2 {g/4}f3/2 d/{g/4}{c/4}{d/4}"A" c e{g/4}{c/4}{d/4}c {e/4}A|
+{f/4}{B/4}{d/4} "E7" B2 {g/4}{e/4}{f/4}e2 {A/4}e3/2 f/{g/4}e/d/{g/4} c/{d/4}B/|"A" A2 {G/4}{d/4}{G/4}{e/4}A3/2 B/{g/4}{c/4}{d/4}c {e/4}A{g/4}{c/4}{d/4} ce |{a/4}{g/4}a2 {g/4}a2 {G/4}{d/4}{G/4}ae {g/4}{c/4}{d/4}c{e/4} A|{G/4}{d/4}{c/4}"D" d2 {g/4}f3/2 d/{g/4}{c/4}{d/4}"A" c e{g/4}{c/4}{d/4}c {e/4}A|
+{f/4}{B/4}{d/4} "E7" B2 {g/4}A3/2 B/{g/4}"A" A2 {g/4}ce ||{a/4}{g/4}"A" a2 {g/4}a2 {B/4}{d/4}{B/4}ae {g/4}{c/4}{d/4}c{e/4} A|{a/4}{g/4}a2 {g/4}a2 {G/4}{d/4}{G/4}ae {g/4}{c/4}{d/4}ce |{a/4}{g/4}"D" a2 {g/4}a3/2 g/{f/4}{g/4}f2 a3/2 g/|
+{f/4}{g/4}"E7" f a{f/4}g f{g/4}{e/4}{f/4}e d{g/4}{c/4}{d/4}c B|{g/4}"A" A2 {G/4}{d/4}{G/4}{e/4}A3/2 B/{g/4}{c/4}{d/4}c {e/4}A{g/4}{c/4}{d/4} ce |{a/4}{g/4}a2 {g/4}a2 {G/4}{d/4}{G/4}ae {g/4}{c/4}{d/4}c{e/4} A|{G/4}{d/4}{c/4}"D" d2 {g/4}f3/2 d/{g/4}{c/4}{d/4}"A" c e{g/4}{c/4}{d/4}c {e/4}A|
+{g/4}{B/4}{d/4} "E7" B2 {g/4}A3/2 B/{G/4}"A" ~A3 |]
+
+
+
+
+
+
+K:A
+(A/B/)W||"   ~"Nc3 BcB|AGE GAB|"   ~"Nc3 dcd|(e/f/g).e (a/g/e).d|"   ~"Nc3 BcB|AGE GAB|{d}cBA GED|EAA A2 H:|
+|:(A/B/)|(c/d/e).f {a}gfg|eaf ge(d/B/)|(c/d/e).f {a}gfg|eag a2(A/B/)|(c/d/e).f {a}gfg|eab ag(e/d/)|"   ~"Nc3 "   ~"Nd3|.e{f}.e.c d.f(e/d/)W:|
+
+
+
+
+
+
+K:A
+A,2 ~A,2 C<E E2|:A>B c>A B>A B<c|A,2 ~A,2 C<E E>c|B/A/B/c/ d/c/B/A/ F3A|
+E<A, ~A,2 C<E E2|A>B c>A B>A B<c|d>c d>f e<c c>a|1 B/A/B/c/ d/c/B/A/ F3A|
+EA, ~A,2 C<E E2:|2 B/A/B/c/ d/c/B/A/ F3e|:f/e/d/c/ a>c b>c a2|
+f/e/d/c/ a>g f>e d>c|B<b b>f a/g/f/e/ b2|B<b b>f a>g f>e|
+f/e/d/c/ a>c b>c a2|f/e/d/c/ a>g f>e d>c|d/e/f/g/ a/g/f/e/ f/e/d/c/ d/c/B/A/|
+[1 B/A/B/c/ d/c/B/A/ F3e:|2 B/A/B/c/ d/c/B/A/ B/A/G/F/ E/D/C/B,/||
+This file contains 8 waltzes (#1 - #8).
+You can find more abc tune files at http://home1.swipnet.se/~w-11382/abc.htm
+I've transcribed them as I have learnt them, which does not necessarily mean
+that I play them that way nowadays. Many of the tunes include variations and
+different versions. If there is a source (S:) or discography (D:) included the
+version transcribed might still not be exactly as that source played the tune,
+since I might have changed the tune around a bit when I learnt it.
+The tunes were learnt from sessions, from friends or from recordings.
+When I've included discography, it's often just a reference to what recordings
+the tune appears on.
+Last updated 17 December 1998.
+(c) Copyright 1997-1998 Henrik Norbeck. This file:
+- May be distributed freely (with restrictions below).
+- May not be used for commercial purposes (such as printing a tune book to sell).
+- This file (or parts of it) may not be made available on a web page for
+download without permission from me.
+- This copyright notice must be kept, except when e-mailing individual tunes.
+- May be printed on paper for personal use.
+- Questions? E-mail: henrik.norbeck@mailbox.swipnet.se
+
+
+
+
+
+
+K:A
+d|cAc efg|aed c2A|dfd cec|dBB B2d|cAc efg|aed c2A|Bba gfg|aAA A2:|
+|:c|ecc Acc|ecc Acc|dBB GBB|dBB GBB|ecc fdd|gee aff|ecc dBG|ABA A2:|
+
+
+
+
+
+
+K:A
+E|A2E Ace|ede ABA|=G2D G>Bc|dcd =G2B|A2E ABd|e2f =gfg|edc Bcd|ecA A2:|
+|:a|aga A2a|aga A2=g|=gfg =G2g|=gfg =G2B|c2c d2d|e2f =gfg|edc Bcd|ecA A2:|
+
+
+
+
+
+
+K:A
+f|ecA AcA|ecA F2A|EFA ABc|edc B2f|ecA AcA|F2A E2c|d2f ecA|BAA A2:|
+|:f|ecA Ace|fde fga|ecA {B}AGA|BGE Ecd|ecA Ace|fde fga|edc BAB|cAA A2:|
+
+
+
+
+
+
+K:A
+AF |: E>C C/C/C ~C2 B,C | A,B,CE ~FECE | F>B B/B/B BcBA |
+Bffe f2fg | a>c c/c/c e>A A/A/A | cBAF E>C C/C/C |
+FGAF Eaaf |1 ecBc A2AF :|2 ecBc A2fg |
+|: a>e e/e/e efed | c>e e/e/e fece | b>f f/f/f fgfe |
+defd B2"Last time to Coda []" fg | a>e e/e/e efed | c>e e/e/e fece |1
+fdge afed | cdBc A2fg :|2 fdec dBcA | Bagf eAGF |
+"[] Coda"ed | cdBc ABGA | FGEF DECD | B,CDE F^ABc | defg a4 ||
+
+
+
+
+
+
+K:A
+e|cAA A2E|Ace f2d|cAA Ace|fdf e2 (f/g/)|afa gec|fdf ecA|cAF EGG|ABA A2:|
+|:e|cAF ECE|AEA ecA|dBG GBc|dBf fed|cAF ECE|AEA def|(e<a)c (B<d)G|ABA A2:|
+
+
+
+
+
+
+K:A
+E|{B}AGA cBA|faf ecA|{B}AGA cBc|FGA BGE|{B}AGA cBA|faf ecA|BdB cec|ABA A2:|
+|:g|agf efg|aba gfe|(c/e/) z f (f2e)|(c/e/) z f (f2g)|agf edc|faf ecA|BdB cec|ABA A2:|
+
+
+
+
+
+
+K:A
+E|E>AA A2f|ecA dcd|cde efg|a>BB B2c|E>AA A2f|ecA dcd|cde efg|a>AA A2:|
+||d|cBA BAF|F>BB B2d|cBA BAF|E>FA A2d|cBA BAF|dcd fga|ecA BAF|EFA A2:|
+
+
+
+
+
+
+K:A
+AF|EAAc BAaf|ecBd cAFA|EAAc BAaf|ecBc A2:|(3efg|agaf eace|dBcA BAfg|
+agaf eac'a|babc' a2ab|c\afa eace|dBcA BAFA|EFAB cAaf|ecBc A2|]
+
+
+
+
+
+
+K:A
+(a/f/)|ecA A2c|BGE E2 (a/f/)|ecA Ace|fba g2 (a/f/)|ecA ABc|BGE E2E|FGA BGE|A3 A2:|
+|:e|cAc ece|fdf e2 (a/f/)|ecA ABc|BGE E2 (e/d/)|cAc ece|fdf e2 (a/f/)|ecA EFG|A3 A2:|
+
+
+
+
+
+
+K:A
+E|AcA BGE|cde dBG|\
+AcA BGE|{F}EDE GAB|AcA BGE|cde dBG|{d}cBA BGE|EFG A2:|
+(A/B/)|ceA ceA|cee edc|(B/c/d)G (B/c/d)G|Bdd dcB|\
+cde dcB|{d}cBA Ggf|ecA GED|EFGA2:|
+
+
+
+
+
+
+K:A
+f|ecA aeA|cde =gfg|B=GG dGG|Bcd d2f|ecA aeA|cde fga|def =gdB|ecA A2:|
+e|agf ecA|cde fga|B=GB dBG|Bcd d2e|agf ecA|cde a3|def =gdB|ecA A2:|
+
+
+
+
+
+
+K:A
+c|\
+Ae/f/ ec A>FEA| Ffec d(BB)c| Ae/f/ ec A>FEA| Ffed cAA:|
+c|\
+eAcA aAfA| eAcA (dBBc)| eAcA aAfA| ecBd (cAAc)|
+eAcA aAfA| eAcA d(BB)c| A>cec d>faf| ecBd cAA|]
+
+
+
+
+
+
+K:A
+(A/B/)|cBc dcd|ecA AGE|{d}cBd cBA|GEF GAB|{d}cBc dcd|ecA Bcd|cBA BGE|EAA A2:|
+|:e|{b}aga ece|agf edc|{e}dcd BGB|Acd efg|{b}aga ece|agf edc|Bcd efg|aAA A2:|
+
+
+
+
+
+
+K:A
+cAA(c B)AA(d|c)efg a2(ga)|bBB(c d)cBA|[1cefg afed:|[2cefg afec|:(3.A.A.A (AF) FEEF|A2(Bc) dcBc|
+(3.A.A.A (AF) FEEe|(3fga (ec) dcBc:|Aceg agfe|(fe)fg (af)ec|Aceg agfe|(3fga (3gab afec|Aceg agfe|
+(fe)fg (ag)af|(3bag (3agf (3gfe (3fed|(3fga (3gab afec|:(3fga (ec) dcBc|AEAB cAce|(3fga (ec) dcBc|(GF)FE (FA)A2:|
+
+
+
+
+
+
+K:A
+e3f ecAB|c3A BAFA|e3f ecAB|cBBA B2AB|
+ce~e2 f2ec|efec BAFA|c3A BAFA|1EAAG ABcd:|2 EAAG A2AB||
+|:ce~e2 df~f2|e3f ecAB|ce~e2 fe~e2|afec B2AB|
+ce~e2 f2ec|efec BAFA|c3A BcAF|1EAAG A2 AB:|2 EAAG A4||
+
+
+
+
+
+
+K:A
+A2 (3cBA eA (3cBA|eA aA gA fA|\
+eA (3cBA eA (3cBA|BE dE cE BE|
+A2 (3cBA eA (3cBA|eA aA gA fA|\
+ef ec ea ec|BA Bc A4 ::
+E2 (3GFE BE (3GFE|BE dE cE BE|\
+A2 (3cBA eA (3cBA| eA aA gA fA|
+ef ec ea ga|ef ec ea ga\
+|1 ec ag fe dc|BA GF EF GE :|2\
+e2 (3efg a2c2| BA Bc A4|]
+
+
+
+
+
+
+K:A
+A2B c2A|B2G A2F|cAF FAF|cAF FAF|A2B c2A|B2G A2F|BGE EGE|BGE EGE:|
+|:e2c d2B|c2A cde|cAF FAF|cAF FAF|e2c d2B|c2A cde|BGE EGE|BGE EGE:|
+
+
+
+
+
+
+K:A
+ecA ~c3|ecA ~B3|Ace ~a3|fec Baf|ecA ~c3|ecA ~B3|Ace ~a3|1 fec A2f:|2 fec A2B||
+|:cee fee|aee fea|Ace ~a3|fec B2d|cee fee|aee fea|Ace ~a3|1 fec A2B:|2 fec A2f||
+
+
+
+
+
+
+K:A
+A2cA BcAF|~E3F ABce|~a3e faec|dBcA BdcB|
+A2cA BcAF|~E3F ABce|~a3e faec|1 dBGB ~A3E:|2 dBGB ~A3F||
+|:E2GE BEGE|A2cA eAcA|B2^dB fBdB|e2ge bege|
+~a3e faec|defg a2ga|bgaf ge~e2|1 dBGB ~A3F:|2 dBGB ~A3E||
+
+
+
+
+
+
+K:A
+A,2CE D2FD|E2GB ~A3c|d2fd edcA|~B3c BAEC|
+A,2CE D2FD|E2GB ~A3c|d2fd edcA|B2AB cAA2:|
+|:c2ec fcec|A2Ac BAFD|E2EF ABcA|defg aefe|
+c2ec fcec|A2Ac BAFA|E2EF ABcA|dfed cAA2:|
+
+
+
+
+
+
+K:A
+E3 EFA | B3 Bce | fea fec | ecA BAF |
+E3 EFA | B3 Bce | fea fec |1 ecA A2F :|2 ecA Acd ||
+e3 ecA | f3 fga | fec BAB | cAF FAc |
+e3 ecA | f3 fga | fec BAB | cAA Acd |
+e3 ecA | f3 fga | fec BAB | cAF Fzf |
+ecA Ace | fdf fga | fec BAB | cAA A2z ||
+
+
+
+
+
+
+K:A
+a |: c'2 a e2 c | A3 AzC | A,CE Aca | g3 gag |
+f2 d B2 A | G3 G3 |1 GFE GFE | C2z a2 b :|2 EFE EFG | A3 A2 ||
+C/2B,/2 |: A,2 C E2 A | c3 c2 e | cAe cAc | B3 BGF |
+E2 G B2 c | d3 fa2 | gfe dcB |1 c3 c2z :|2 A3 A3 ||
+
+
+
+
+
+
+K:A
+cd |: efe c2 d | efe c2 e | dcd B2 c | d3 {e}dcd |
+efe ce=g | fef dfa | g2 b gfg |1 a3 a3 :|2 a3 a2e ||
+agf edc | Bcd f2 e | cde eae | cde f2 e |
+agf edc | Bcd f2 a | efe dcB |1 c/2B/2A2 ea2 :|2 BA2 A3 ||
+
+
+
+
+
+
+K:A
+(3EFG |
+ABcd eAGA | fAgA aAGA | FAEA DACA | BcdB AGFE |
+ABcd eAGA | fAgA aAGA | FAEA DACA | BdBG A2(3EFG |
+ABcd eAGA | fAgA aAGA | FAEA DACA | BcdB AGFE |
+ABcd eAGA | fAgA aAGA | FAEA DACA | BdBG A2A2 |
+|:eAGA fAGA | fgag f=f^fc | dcdc B_B=Bc | dc(3dcB AGFE |
+ABcd eAGA | fAgA aAGA | FAEA DACA | BdBG A2A2:|
+
+
+
+
+
+
+K:A
+cB|\
+(3ABc EF Ace2|(3def Bc def2|\
+fe ce ae cA|(3Bcd cA BA F2|\
+(3ABc EF Ace2|(3def Bc def2|\
+fe ce ae cA|(3Bcd cB A2::\
+g2|\
+ae ce fe ce|ae ce fe cB|\
+AB ce fe cA|(3Bcd cA BA F2|\
+(3ABc EF Ace2|(3def Bc de f2|\
+fe ce ae cA|(3Bcd cB A2:|
+
+
+
+
+
+
+K:A
+(3ABc |
+dFFE FGAF | EF (3ABc d3B |
+cBAF E2FA | B2Bc B2AB |
+cBAF ECEF | A2AB A2(3ABc |
+dFFE FGAF | EF (3ABc d3B |
+cBAF E2FA | B2Bc B2AB |
+cBAF ECEF | A2AB AAce |
+f2fe fgaf | ec(3ABc d3B |
+cBAF E2FA | B2Bc B2AB |
+cBAF ECEF | A2AB AAce |
+f2fe fgaf | ec(3ABc d3B |
+cBAF E2FA | B2Bc B2AB |
+cBAF ECEF | A2AB A2 |
+
+
+
+
+
 

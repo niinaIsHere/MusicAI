@@ -1,5 +1,9 @@
 from input_validation import validate_degree, validate_length, validate_seed
 
+def get_key():
+    key = input('Key: ')
+    return key
+
 def get_degree():
     while True:
         input_degree = input("Degree: ")

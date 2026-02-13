@@ -16,10 +16,12 @@ def prep_file(file):
     return rows
 
 # filtering songs in key of G major from original dataset into a separate file
-def filter(file):
+def filter(file, key):
     rows = prep_file(file)
 
-    correct = 'K:G'
+    correct = NEW_SONG+key
+
+#    correct = 'K:G'
     new_song = 'X:'
     found = False
     output = []
