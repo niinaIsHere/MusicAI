@@ -1,19 +1,35 @@
 import trie, random
 
+SHARP = '^'
+FLAT = '_'
+
 TRANSPOSITION = {
-    'C': {},
-    'D': {'f': '^f', 'g': '^g'},
-    'Dm': {'e': '_e'},
-    'E': {},
-    'Em': {},
-    'F': {},
-    'Fm': {},
-    'G': {},
-    'Gm': {},
-    'A': {},
-    'Am': {},
-    'B': {},
-    'Bm': {}
+    'D': {'f': SHARP,
+          'c': SHARP},
+    'Dm': {'b': FLAT},
+    'E': {'f': SHARP,
+          'c': SHARP,
+          'g': SHARP,
+          'd': SHARP},
+    'Em': {'f': SHARP},
+    'F': {'b': FLAT},
+    'Fm': {'b': FLAT,
+           'e': FLAT,
+           'a': FLAT,
+           'd': FLAT},
+    'G': {'f': SHARP},
+    'Gm': {'b': FLAT,
+           'e': FLAT},
+    'A': {'f': SHARP,
+          'c': SHARP,
+          'g': SHARP},
+    'B': {'f': SHARP,
+          'c': SHARP,
+          'g': SHARP,
+          'd': SHARP,
+          'a': SHARP},
+    'Bm': {'f': SHARP,
+          'c': SHARP}
 }
 
 def generate(trained_trie, seed, length, key):
@@ -33,7 +49,18 @@ def generate(trained_trie, seed, length, key):
         seed.append(chosen)
         if len(seed) > trained_trie.degree:
             seed.pop(0)
-    return generated_melody
+    corrected = apply_key(key, generated_melody)
+    return corrected
 
-def apply_key(key):
-    pass
+def apply_key(key, melody):
+    corrected_melody = []
+    if key in TRANSPOSITION:
+        for note in melody:
+            note_name = note[0].lower()
+            if note_name in TRANSPOSITION[key]:
+                correct_note_name = TRANSPOSITION[key][note_name]+note
+            else:
+                correct_note_name = note
+            corrected_melody.append(correct_note_name)
+        return corrected_melody
+    return melody

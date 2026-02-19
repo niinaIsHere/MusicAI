@@ -27,7 +27,7 @@ def get_seed(degree):
     seed = []
     if seed_set:
         while len(seed) == 0:
-            input_seed = input(f"Give your notes (maximum of {degree} notes): ")
+            input_seed = input(f"Give your notes! Do not include sharps or flats (maximum of {degree} notes): ")
             try:
                 seed = validate_seed(input_seed, degree)
             except:

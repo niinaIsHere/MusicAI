@@ -6,8 +6,9 @@ def test_prep_file():
     assert len(rows) == 11
 
 def test_filter():
-    expected = ['K:G', 'g2| gfe deB|cdd cBA| BF2', '']
-    rows = filter('testdata/filter_test_data.txt')
+    key = 'G'
+    expected = ['K:'+key, 'g2| gfe deB|cdd cBA| BF2', '']
+    rows = filter('testdata/filter_test_data.txt', key)
     assert rows == expected
 
 def test_parse():

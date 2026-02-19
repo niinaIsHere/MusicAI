@@ -26,5 +26,5 @@ K:G
 g2| gfe deB|cdd cBA| BF2
 
 X:9
-K:Gm
+K:Dm
 g2| gfe deB|cdd cBA| BF2
