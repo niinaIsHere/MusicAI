@@ -1,6 +1,6 @@
 # MusicAI
 
-Application generates melodies in G-major
+Application generates melodies in chosen key.
 
 ## Use:
 Clone repository
@@ -14,11 +14,12 @@ run the project with command: python src/main.py
 3. If typed 'y', compose the beginning by writing note names separated by a wihtespace only.  
        Instructions:  
        You have three octaves to use: lowest( C-B ), middle( c-b ), highest( c'-b' )  
-       Flats and sharps are denoted with '^' and '_' in front of the note.  
+       Flats and sharps are denoted with '^' and '_' in front of the note.
+          NOTE: Since the key is given, sharps and flats don't need to be denoted unless you want a note that doesn't belong in the key.  
        Examples:  
        Low c-sharp and c-flat: ^C, _C  
        Middle c-sharp and c-flat: ^c, _c  
-       High c-shar and c-flat: ^c', _c'  
+       High c-sharp and c-flat: ^c', _c'  
 5. Choose the length of the generated melody.
 
 Right now the application supports generation only for seeds that are less than or equal to the Markov chain degree.  
