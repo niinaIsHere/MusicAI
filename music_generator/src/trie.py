@@ -58,8 +58,11 @@ class Trie():
         self.root = Node(None)
         self.degree = degree
 
-    # convert note sequence to number sequence
     def convert_to_numeric(self, key):
+        """Converts note sequence into number sequence.
+        Takes the note sequence as parameter.
+        Returns the sequence as numeric values
+        """
         numeric_key = []
         for i in range(len(key)):
             note_value = key[i]
@@ -74,8 +77,10 @@ class Trie():
             numeric_key.append(numeric_value)
         return numeric_key
 
-    # convert number sequence into note sequence
     def convert_to_notes(self, key):
+        """Converts number sequence into note sequence.
+        Takes the number sequence as parameter and returns the note sequence.
+        """
         note_sequence = []
         for i in range(len(key)):
             if key[i] not in CONVERT_TO_NOTES:
@@ -88,8 +93,10 @@ class Trie():
             note_sequence.append(note_value)
         return note_sequence
 
-    # insert a melody into trie
     def insert(self, key):
+        """Inserts a melody given as parameter into the trie.
+        Doesn't return anything.
+        """
         x = self.root
         num_key = self.convert_to_numeric(key)
         for i in range(len(num_key)):
@@ -98,8 +105,10 @@ class Trie():
             x.children[num_key[i]].count += 1
             x = x.children[num_key[i]]
 
-    # find followers for melody from trie
     def find(self, key):
+        """Finds a sequence of notes given as parameter from the trie.
+        Returns the possible followers and their frequencies as a tuple of two lists.
+        """
         x = self.root
         num_key = self.convert_to_numeric(key)
         for i in range(len(num_key)):
@@ -122,7 +131,6 @@ class Trie():
         
 
 class Node():
-    # structure
     def __init__(self, value):
         self.value = value
         self.children = {i: None for i in range(1, 53)}

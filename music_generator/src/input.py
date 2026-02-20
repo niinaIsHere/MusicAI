@@ -1,10 +1,18 @@
-from input_validation import validate_degree, validate_length, validate_seed
+from input_validation import validate_degree, validate_length, validate_seed, validate_key
 
 def get_key():
-    key = input('Key: ')
+    """Takes the user input for key and returns it if valid"""
+    while True:
+        input_key = input('Key: ')
+        try:
+            key = validate_key(input_key)
+        except:
+            continue
+        break
     return key
 
 def get_degree():
+    """Takes the user input for degree and returns it as integer if valid."""
     while True:
         input_degree = input("Degree: ")
         try:
@@ -15,6 +23,7 @@ def get_degree():
     return degree
 
 def get_seed(degree):
+    """Takes the user input for seed and returns it as list if valid"""
     seed_set = None
 
     while seed_set == None:
@@ -27,7 +36,7 @@ def get_seed(degree):
     seed = []
     if seed_set:
         while len(seed) == 0:
-            input_seed = input(f"Give your notes! Do not include sharps or flats (maximum of {degree} notes): ")
+            input_seed = input(f"Give your notes in the form (note1 note2). Include sharps and flats only for notes outside of the key (maximum of {degree} notes): ")
             try:
                 seed = validate_seed(input_seed, degree)
             except:
@@ -35,6 +44,7 @@ def get_seed(degree):
     return seed
 
 def get_length(seed_length):
+    """Takes the user input for length and returns it as integer if valid"""
     while True:
         input_length = input("How long should the generated melody be?: ")
         try:

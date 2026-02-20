@@ -6,6 +6,7 @@ TEST_SET = set({'c', 'd', 'e'})
 KEY = 'G'
 
 def construct_test_trie():
+    """Construct trie to be used in generation tests"""
     trie = Trie(2)
     trie.insert(['c', 'd', 'e'])
     trie.insert(['d', 'e', 'c'])
@@ -49,6 +50,7 @@ def test_transitions_are_allowed():
     assert song1 != song2
 
 def test_apply_key_sharp():
+    """Tests the apply_key method successfully corrects the sharp notes"""
     key = 'A'
     melody = ['a', 'c', 'C', 'f', 'd', 'G']
     expected = ['a', '^c', '^C', '^f', 'd', '^G']
@@ -56,6 +58,7 @@ def test_apply_key_sharp():
     assert result == expected
 
 def test_apply_key_flat():
+    """Tests the apply_key method successfully corrects the flat notes"""
     key = 'Gm'
     melody = ['g', 'b', 'E', 'd', 'a', 'e']
     expected = ['g', '_b', '_E', 'd', 'a', '_e']

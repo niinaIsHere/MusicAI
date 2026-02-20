@@ -9,19 +9,23 @@ NEW_SONG = 'K:'
 CHORD_OR_QUOTE = '"'
 
 def prep_file(file):
+    """Preps a file into a list of rows for further use.
+    Takes a file of abc-notation songs and returns a list of the rows.
+    """
     with open(file, "r", encoding="latin-1", errors="replace") as f:
         data = f.read()
 
     rows = data.split('\n')
     return rows
 
-# filtering songs in key of G major from original dataset into a separate file
 def filter(file, key):
+    """Filters songs in given key from original dataset into the output file.
+    Takes a file with abc-notation songs and the key to filter into the output file and returned output.
+    Returns a list with the rows in the output file for testing.
+    """
     rows = prep_file(file)
 
     correct = NEW_SONG+key
-
-#    correct = 'K:G'
     new_song = 'X:'
     found = False
     output = []
@@ -37,8 +41,10 @@ def filter(file, key):
                 output.append(row)
     return output
 
-# parsing the filtered data into format that is easily convertable and only holds needed information
 def parse(file):
+    """Parses the filtered data into a format that is easily convertable and only holds needed information.
+    Takes a file of abc notation songs as input and returns a list of lists. Each list is a melody composed of note names.
+    """
     rows = prep_file(file)
     testlist = []
 

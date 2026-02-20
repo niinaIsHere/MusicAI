@@ -2,6 +2,7 @@ import pytest
 from src.trie import Trie
 
 def test_trie_insert_and_find():
+    """Tests the inserted melody is present and able to be found in the trie"""
     trie = Trie(2)
     trie.insert(['c', 'd', 'e'])
 
@@ -15,6 +16,7 @@ def test_trie_nonexistent_returns_none():
     assert result is None
 
 def test_trie_counts():
+    """Tests the frequencies of notes given by the trie are accurate"""
     trie = Trie(2)
     trie.insert(['c', 'd', 'e'])
     trie.insert(['c', 'd', 'e'])
