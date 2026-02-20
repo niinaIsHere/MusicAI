@@ -1,6 +1,6 @@
 # MusicAI
 
-Application generates melodies in chosen key.
+Application generates melodies (note sequences) from optional user seed in chosen key.
 
 ## Use:
 Clone repository
