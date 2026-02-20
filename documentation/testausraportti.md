@@ -1,5 +1,6 @@
+# Testausraportti
 
-##Mitä testattu, miten?
+## Mitä testattu, miten?
 
 Käytin pytestiä yksikkötesteihin. Kaiken kaikkiaan 25 testiä.
 
@@ -11,14 +12,10 @@ Testasin generoimista viidellä testillä. Kaikissa käytin testejä varten rake
 
 Syötteen validoinnin testeissä testasin jokaista syötetyyppiä siten, että kaikki hyväksymättömät syötteet huomataan varmasti. Testasin myös jokaista yhdellä validilla syötteellä. 
 
-##Minkälaiset syötteet:
+## Minkälaiset syötteet:
 
 Datan käsittelyä varten tein tiedostot, joihin loin testidatan. Otin lähinnä sopivia otteita oikeasta datasta, ja muokkasin niitä tarvittaessa, jotta ne edustavat tarpeeksi eri tilanteita. Trien testaamiseen loin joka testissä oman datansa. Dataa ei tarvittu trie-testeissä paljoa. Generoinnin testaamisessa loin test_generation moduulissa omassa metodissaan test-trien, johon suunnittelin melodiat siten, että generoinnin testaus onnistuu hyvin. Generoinnin sävellajitesteihin loin syötteiksi sopivan sävellajin ja melodian. Syötteen validoinnin testauksessa loin itse testisyötteet. Esimerkiksi test_valid_seed testissä loin itse mahdollisimman kattavan seedin, jotta kaiken tyyppiset validit nuotit käydään läpi.
 
-##Miten voi toistaa?
+## Miten voi toistaa?
 
 Testit voi toistaa vain ajamalla ne, koska ne sisältävät kaikki syötteet itsessään.
-
-
-
-
