@@ -27,8 +27,16 @@ If seed is equal in length to the degree, no notes will be generated and the mel
 
 ## Määrittelydokumentti
 
+[Määrittelydokumentti](https://github.com/niinaIsHere/MusicAI/blob/main/documentation/maarittelydokumentti.md)
+
 ## Toteutusdokumentti
+
+[Toteutusdokumentti](https://github.com/niinaIsHere/MusicAI/blob/main/documentation/toteutusdokumentti.md)
 
 ## Testausraportti
 
+[Testausraportti](https://github.com/niinaIsHere/MusicAI/blob/main/documentation/testausraportti.md)
+
 ## Viikkoraportit
+
+[Viikkoraportit](https://github.com/niinaIsHere/MusicAI/tree/main/documentation/viikkoraportit)
