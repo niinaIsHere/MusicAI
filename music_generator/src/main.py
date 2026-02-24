@@ -1,5 +1,4 @@
 import data, input, trainer, generator
-import time
 
 def main():
     key = input.get_key()

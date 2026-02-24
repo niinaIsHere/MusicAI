@@ -1,8 +1,18 @@
 import pytest
-from src.input_validation import validate_degree, validate_length, validate_seed
+from src.input_validation import validate_degree, validate_length, validate_seed, validate_key
 
 SEED_LENGTH = 3
 DEGREE = 3
+
+def test_valid_key():
+    key = "Am"
+    result = validate_key(key)
+    assert key == result
+
+def test_invalid_key():
+    key = "Xm"
+    with pytest.raises(ValueError):
+        validate_key(key)
 
 def test_valid_degree():
     result = validate_degree('3')

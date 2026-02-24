@@ -1,4 +1,4 @@
-import trie, random
+import random
 
 SHARP = '^'
 FLAT = '_'
