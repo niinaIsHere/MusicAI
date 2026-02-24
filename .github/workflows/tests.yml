@@ -24,6 +24,7 @@ jobs:
         run: echo "PYTHONPATH=$PYTHONPATH:$(pwd)/music_generator/src" >> $GITHUB_ENV
 
       - name: Run tests with coverage
+        working-directory: music_generator
         run: |
           pytest --cov=. --cov-report=xml
 
@@ -36,6 +37,7 @@ jobs:
         with:
           name: coverage
           path: coverage.xml
+
 
 
 
