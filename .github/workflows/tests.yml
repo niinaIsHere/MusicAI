@@ -18,9 +18,13 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          pip install -r music_generator/requirements.txt
+
+      - name: Add src to PYTHONPATH
+        run: echo "PYTHONPATH=$PYTHONPATH:$(pwd)/music_generator/src" >> $GITHUB_ENV
 
       - name: Run tests with coverage
+        working-directory: music_generator
         run: |
           pytest --cov=. --cov-report=xml
 
@@ -32,5 +36,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: coverage
-          path: coverage.xml
+          path: music_generator/coverage.xml
+
+
+
+
 
