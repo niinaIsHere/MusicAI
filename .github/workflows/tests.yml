@@ -18,7 +18,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          pip install -r music_generator/requirements.txt
 
       - name: Run tests with coverage
         run: |
@@ -33,4 +33,5 @@ jobs:
         with:
           name: coverage
           path: coverage.xml
+
 
