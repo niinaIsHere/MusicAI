@@ -20,6 +20,9 @@ jobs:
         run: |
           pip install -r music_generator/requirements.txt
 
+      - name: Add src to PYTHONPATH
+        run: echo "PYTHONPATH=$PYTHONPATH:$(pwd)/music_generator/src" >> $GITHUB_ENV
+
       - name: Run tests with coverage
         run: |
           pytest --cov=. --cov-report=xml
@@ -33,5 +36,6 @@ jobs:
         with:
           name: coverage
           path: coverage.xml
+
 
 
