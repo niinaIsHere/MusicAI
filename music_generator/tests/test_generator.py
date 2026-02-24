@@ -13,6 +13,17 @@ def construct_test_trie():
     trie.insert(['e', 'c', 'd'])
     return trie
 
+def test_end_to_end():
+    """Tests all generated transitions are valid."""
+    trie = construct_test_trie()
+    seed = []
+    song = generate(trie, seed, 6, KEY)
+
+    for i in range(len(song)-1):
+        to_be_found = song[i]
+        followers = trie.find(to_be_found)[0]
+        assert song[i+1] in followers
+
 def test_generated_melody_starts_with_seed():
     trie = construct_test_trie()
     seed = ['c', 'd']
@@ -20,6 +31,7 @@ def test_generated_melody_starts_with_seed():
     assert song[:2] == ['c', 'd']
 
 def test_generator_without_seed():
+    """Tests the generation works without an input seed"""
     trie = construct_test_trie()
     seed = []
     song = generate(trie, seed, 3, KEY)
@@ -40,14 +52,6 @@ def test_generated_notes_are_in_trie():
         if note not in TEST_SET:
             valid_notes = False
     assert valid_notes
-
-def test_transitions_are_allowed():
-    trie = construct_test_trie()
-    seed = ['c']
-    song1 = generate(trie, seed, 3, KEY)
-    seed = ['d']
-    song2 = generate(trie, seed, 3, KEY)
-    assert song1 != song2
 
 def test_apply_key_sharp():
     """Tests the apply_key method successfully corrects the sharp notes"""

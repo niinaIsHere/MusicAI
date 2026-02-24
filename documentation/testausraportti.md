@@ -2,7 +2,7 @@
 
 ## Mitä testattu, miten?
 
-Käytin pytestiä yksikkötesteihin. Kaiken kaikkiaan 27 testiä.
+Käytin pytestiä yksikkötesteihin. Kaiken kaikkiaan 26 testiä.
 
 Testasin koko ohjelman toiminnan yhdellä testillä test_full:ssa. Määrittelin syötteet vakioiksi tiedostoon ja niiden avulla tein test_pipeline() - testin, joka vie menee ohjelman toiminnan läpi ja tarkistaa, että lopputulos on oikeanlainen. Testi tarkistaa, että generoitu melodia on halutun pituinen ja että se alkaa seedillä. Lisäksi testasin, että generoidun melodian transitiot löytyvät triestä.
 
