@@ -1,11 +1,13 @@
+"""Validates all user inputs from user_input.py."""
+
 VALID_NOTES = ({'a', 'b', 'c', 'd', 'e', 'f', 'g'})
 VALID_KEYS = ({'C', 'Cm', 'D', 'Dm', 'E', 'Em', 'F', 'Fm', 'G', 'Gm', 'A', 'Am', 'B', 'Bm', 'Ador', 'Ddor'})
 
 def validate_key(key):
+    """Checks if input key is in the set of valid keys and returns it if is, else returns ValueError."""
     if key in VALID_KEYS:
         return key
-    else:
-        raise ValueError
+    raise ValueError
 
 def validate_degree(input_degree):
     """Takes the user input degree as parameter and checks whether it's valid.

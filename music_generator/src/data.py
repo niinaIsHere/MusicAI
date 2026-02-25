@@ -1,3 +1,6 @@
+"""Methods for preparing files, filtering songs into a key and parsing an abc-notation song
+into the desired format."""
+
 
 VALID_NOTE_NAMES = set({'C', 'D', 'E', 'F', 'G', 'A', 'B', 'c', 'd', 'e' ,'f', 'g', 'a', 'b'})
 VALID_HIGHER_OCTAVE_NOTES = set({'c', 'd', 'e', 'f', 'g', 'a', 'b'})
@@ -18,10 +21,10 @@ def prep_file(file):
     rows = data.split('\n')
     return rows
 
-def filter(file, key):
+def filter_with_key(file, key):
     """Filters songs in given key from original dataset into the output file.
-    Takes a file with abc-notation songs and the key to filter into the output file and returned output.
-    Returns a list with the rows in the output file for testing.
+    Takes a file with abc-notation songs and the key to filter into the output file
+    and returned output. Returns a list with the rows in the output file for testing.
     """
     rows = prep_file(file)
 
@@ -42,8 +45,9 @@ def filter(file, key):
     return output
 
 def parse(file):
-    """Parses the filtered data into a format that is easily convertable and only holds needed information.
-    Takes a file of abc notation songs as input and returns a list of lists. Each list is a melody composed of note names.
+    """Parses the filtered data into a format that is easily convertable
+    and only holds needed information. Takes a file of abc notation songs as input
+    and returns a list of lists. Each list is a melody composed of note names.
     """
     rows = prep_file(file)
     testlist = []

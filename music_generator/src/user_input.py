@@ -1,3 +1,5 @@
+"""Takes inputs from user"""
+
 from input_validation import validate_degree, validate_length, validate_seed, validate_key
 
 def get_key():
@@ -26,7 +28,7 @@ def get_seed(degree):
     """Takes the user input for seed and returns it as list if valid"""
     seed_set = None
 
-    while seed_set == None:
+    while seed_set is None:
         input_seed_set = input("Do you want to compose the beginnning? y/n: ")
         if input_seed_set == 'y':
             seed_set = True

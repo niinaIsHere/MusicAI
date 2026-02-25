@@ -1,4 +1,4 @@
 [run]
 omit =
     main.py
-    input.py
+    user_input.py

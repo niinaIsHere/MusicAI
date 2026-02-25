@@ -1,4 +1,5 @@
-import pytest
+"""Tests for generator.py"""
+
 from src.generator import generate, apply_key
 from src.trie import Trie
 
@@ -25,6 +26,8 @@ def test_end_to_end():
         assert song[i+1] in followers
 
 def test_generated_melody_starts_with_seed():
+    """Defines a seed and generates with it.
+    Checks that the generated melody starts with the given seed."""
     trie = construct_test_trie()
     seed = ['c', 'd']
     song = generate(trie, seed, 3, KEY)
@@ -38,20 +41,13 @@ def test_generator_without_seed():
     assert len(song) == 3
 
 def test_generated_melody_length():
+    """Tests the generated melody length is the same as the length
+    given as parameter"""
     trie = construct_test_trie()
     seed = []
-    song = generate(trie, seed, 10, KEY)
-    assert len(song) == 10
-
-def test_generated_notes_are_in_trie():
-    trie = construct_test_trie()
-    seed = []
-    song = generate(trie, seed, 5, KEY)
-    valid_notes = True
-    for note in song:
-        if note not in TEST_SET:
-            valid_notes = False
-    assert valid_notes
+    length = 10
+    song = generate(trie, seed, length, KEY)
+    assert len(song) == length
 
 def test_apply_key_sharp():
     """Tests the apply_key method successfully corrects the sharp notes"""

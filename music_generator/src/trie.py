@@ -1,5 +1,6 @@
 """
-Methods for creating a node into the trie, inserting a melody into the trie and finding possible followers for input from the trie.
+Methods for creating a node into the trie, inserting a melody into the trie
+and finding possible followers for input from the trie.
 """
 
 CONVERT_TO_NUMBERS = {
@@ -84,9 +85,9 @@ class Trie():
         note_sequence = []
         for i in range(len(key)):
             if key[i] not in CONVERT_TO_NOTES:
-                if (key[i] + 1) in CONVERT_TO_NOTES:
+                if key[i] + 1 in CONVERT_TO_NOTES:
                     note_value = FLAT + CONVERT_TO_NOTES[key[i] + 1]
-                elif (key[i] - 1) in CONVERT_TO_NOTES:
+                elif key[i] - 1 in CONVERT_TO_NOTES:
                     note_value = SHARP + CONVERT_TO_NOTES[key[i] - 1]
             else:
                 note_value = CONVERT_TO_NOTES[key[i]]
@@ -100,7 +101,7 @@ class Trie():
         x = self.root
         num_key = self.convert_to_numeric(key)
         for i in range(len(num_key)):
-            if x.children[num_key[i]] == None:
+            if x.children[num_key[i]] is None:
                 x.children[num_key[i]] = Node(num_key[i])
             x.children[num_key[i]].count += 1
             x = x.children[num_key[i]]
@@ -112,27 +113,24 @@ class Trie():
         x = self.root
         num_key = self.convert_to_numeric(key)
         for i in range(len(num_key)):
-            if x.children[num_key[i]] == None:
+            if x.children[num_key[i]] is None:
                 return None
             x = x.children[num_key[i]]
-        
+
         candidates = []
         frequencies = []
         max_count = 0
         for child in x.children:
             node = x.children[child]
-            if node != None:
-                if node.count > max_count:
-                    max_count = node.count
+            if node is not None:
+                max_count = max(max_count, node.count)
                 candidates.append(child)
                 frequencies.append(node.count)
         candidates = self.convert_to_notes(candidates)
         return (candidates, frequencies)
-        
 
 class Node():
     def __init__(self, value):
         self.value = value
         self.children = {i: None for i in range(1, 53)}
         self.count = 0
-

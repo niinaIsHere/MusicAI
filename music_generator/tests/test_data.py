@@ -1,5 +1,6 @@
-import pytest
-from src.data import prep_file, filter, parse
+"""Tests for data.py"""
+
+from src.data import prep_file, filter_with_key, parse
 
 def test_prep_file():
     """Tests the returned list is of accurate size"""
@@ -10,7 +11,7 @@ def test_filter():
     """Tests the filter successfully filters the songs in the input key"""
     key = 'G'
     expected = ['K:'+key, 'g2| gfe deB|cdd cBA| BF2', '']
-    rows = filter('testdata/filter_test_data.txt', key)
+    rows = filter_with_key('testdata/filter_test_data.txt', key)
     assert rows == expected
 
 def test_parse():
@@ -18,4 +19,3 @@ def test_parse():
     expected = [['_A', "c'", 'B', '^G', 'G', 'B', 'G'], ['B', 'd', 'e', 'g', '_e', 'd', 'c', 'B', 'A', 'G', '^d', 'A', 'B']]
     songs = parse('testdata/parse_test_data.txt')
     assert songs == expected
-

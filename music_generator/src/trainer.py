@@ -1,3 +1,5 @@
+"""Module includes methods for training the trie."""
+
 import trie
 
 def train(data, degree):
@@ -10,4 +12,3 @@ def train(data, degree):
             sublist = melody[i:(i+(degree+1))]
             new_trie.insert(sublist)
     return new_trie
-

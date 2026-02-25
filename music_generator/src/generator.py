@@ -1,3 +1,5 @@
+"""Module for generating melodies and transposing them into a key."""
+
 import random
 
 SHARP = '^'
@@ -34,14 +36,15 @@ TRANSPOSITION = {
 
 def generate(trained_trie, seed, length, key):
     """Generates a melody of given length from a trie trained with data of given key.
-        The generated melody is corrected into a form where all accidentals are shown for easier reading.
-        Parameters are the trained trie, user seed, melody length and key for 'transposing' the generated melody.
-        Returns the generated melody as note names in a list.
+    The generated melody is corrected into a form where all accidentals are shown
+    for easier reading. Parameters are the trained trie, user seed, melody length
+    and key for 'transposing' the generated melody. Returns the generated melody
+    as note names in a list.
     """
-    generated_melody = [note for note in seed]
+    generated_melody = list(seed)
     for i in range(length):
         result = trained_trie.find(seed)
-        if result == None:
+        if result is None:
             print('Nothing like this has ever existed')
             break
         candidates, frequencies = result
@@ -57,7 +60,8 @@ def generate(trained_trie, seed, length, key):
     return corrected
 
 def apply_key(key, melody):
-    """Takes a key and a melody as parameters and corrects the melody to include the accidentals present in the key
+    """Takes a key and a melody as parameters and corrects
+    the melody to include the accidentals present in the key
     for that melody and returns the corrected version.
     """
     corrected_melody = []

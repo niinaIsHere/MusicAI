@@ -1,12 +1,14 @@
-import pytest, copy
-import src.data as data, src.trie as trie, src.trainer as trainer, src.generator as generator
+"""Tests whole program action"""
+
+import copy
+from src import data, trainer, generator
 
 KEY = 'G'
 DEGREE = 3
 INPUT_SEED = ['c']
 INPUT_LENGTH = 5
-test_data = "testdata/full_test_data.txt"
-filtered_data = "melodies/gdata.txt"
+TEST_DATA = "testdata/full_test_data.txt"
+FILTERED_DATA = "melodies/gdata.txt"
 
 def test_pipeline():
     """Tests whole pipeline from data parsing to training to generation.
@@ -15,8 +17,8 @@ def test_pipeline():
     """
     length = INPUT_LENGTH-len(INPUT_SEED)
     seed = copy.deepcopy(INPUT_SEED)
-    songs_in_key = data.filter(test_data, KEY)
-    melodies = data.parse(filtered_data)
+    songs_in_key = data.filter_with_key(TEST_DATA, KEY)
+    melodies = data.parse(FILTERED_DATA)
     test_trie = trainer.train(melodies, DEGREE)
     gen = generator.generate(test_trie, seed, length, KEY)
 
