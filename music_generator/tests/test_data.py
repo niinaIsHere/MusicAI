@@ -11,7 +11,8 @@ def test_filter():
     """Tests the filter successfully filters the songs in the input key"""
     key = 'G'
     expected = ['K:'+key, 'g2| gfe deB|cdd cBA| BF2', '']
-    rows = filter_with_key('testdata/filter_test_data.txt', key)
+    dataset = 'test filter'
+    rows = filter_with_key(dataset, key)
     assert rows == expected
 
 def test_parse():

@@ -1,6 +1,17 @@
 """Takes inputs from user"""
 
-from input_validation import validate_degree, validate_length, validate_seed, validate_key
+from input_validation import validate_degree, validate_length, validate_seed, validate_key, validate_amount, validate_dataset
+
+def get_dataset():
+    """Takes the user input for dataset, meaning the genre of generation"""
+    while True:
+        input_dataset = input("Choose genre ('folk' or 'bach'): ")
+        try:
+            dataset = validate_dataset(input_dataset)
+        except:
+            continue
+        break
+    return dataset
 
 def get_key():
     """Takes the user input for key and returns it if valid"""
@@ -24,7 +35,7 @@ def get_degree():
         break
     return degree
 
-def get_seed(degree):
+def get_seed():
     """Takes the user input for seed and returns it as list if valid"""
     seed_set = None
 
@@ -38,9 +49,9 @@ def get_seed(degree):
     seed = []
     if seed_set:
         while len(seed) == 0:
-            input_seed = input(f"Give your notes in the form (note1 note2). Include sharps and flats only for notes outside of the key (maximum of {degree} notes): ")
+            input_seed = input(f"Give your notes in the form (note1 note2). Include sharps and flats only for notes outside of the key: ")
             try:
-                seed = validate_seed(input_seed, degree)
+                seed = validate_seed(input_seed)
             except:
                 continue
     return seed
@@ -56,3 +67,14 @@ def get_length(seed_length):
         break
     length -= seed_length
     return length
+
+def get_amount():
+    """Takes the user input for how many songs to be generated"""
+    while True:
+        input_amount = input("How many songs do you want to generate?: ")
+        try:
+            amount = validate_amount(input_amount)
+        except:
+            continue
+        break
+    return amount

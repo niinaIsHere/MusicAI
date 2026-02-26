@@ -34,7 +34,7 @@ TRANSPOSITION = {
           'c': SHARP}
 }
 
-def generate(trained_trie, seed, length, key):
+def generate(trained_trie, seed, length, key, degree):
     """Generates a melody of given length from a trie trained with data of given key.
     The generated melody is corrected into a form where all accidentals are shown
     for easier reading. Parameters are the trained trie, user seed, melody length
@@ -42,6 +42,8 @@ def generate(trained_trie, seed, length, key):
     as note names in a list.
     """
     generated_melody = list(seed)
+    if len(seed) > degree:
+        seed = seed[len(seed)-degree:]
     for i in range(length):
         result = trained_trie.find(seed)
         if result is None:
@@ -54,7 +56,7 @@ def generate(trained_trie, seed, length, key):
         chosen = random.choices(candidates, frequencies)[0]
         generated_melody.append(chosen)
         seed.append(chosen)
-        if len(seed) > trained_trie.degree:
+        if len(seed) > degree:
             seed.pop(0)
     corrected = apply_key(key, generated_melody)
     return corrected

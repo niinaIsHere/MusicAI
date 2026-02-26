@@ -2,6 +2,14 @@
 
 VALID_NOTES = ({'a', 'b', 'c', 'd', 'e', 'f', 'g'})
 VALID_KEYS = ({'C', 'Cm', 'D', 'Dm', 'E', 'Em', 'F', 'Fm', 'G', 'Gm', 'A', 'Am', 'B', 'Bm', 'Ador', 'Ddor'})
+VALID_DATASETS = ({'folk', 'bach'})
+
+def validate_dataset(dataset):
+    """Checks the dataset choice is valid"""
+    if dataset in VALID_DATASETS:
+        return dataset
+    else:
+        raise ValueError
 
 def validate_key(key):
     """Checks if input key is in the set of valid keys and returns it if is, else returns ValueError."""
@@ -20,13 +28,11 @@ def validate_degree(input_degree):
         raise ValueError
     return degree
 
-def validate_seed(input_seed, degree):
+def validate_seed(input_seed):
     """Takes the user input seed and degree as parameter. Checks whether the seed is valid.
     If the seed is valid it's returned as a list of notes. If it's not valid raises value error.
     """
     seed = input_seed.split()
-    if len(seed) > degree:
-        raise ValueError
     for note in seed:
         if len(note) == 1:
             if note.lower() not in VALID_NOTES:
@@ -60,3 +66,13 @@ def validate_length(input_length, seed_length):
     if length < 0:
         raise ValueError
     return length
+
+def validate_amount(amount):
+    """Checks the input amount is an integer and larger than 0"""
+    try:
+        amount = int(amount)
+    except:
+        raise ValueError
+    if amount < 1 or amount > 100:
+        raise ValueError
+    return amount

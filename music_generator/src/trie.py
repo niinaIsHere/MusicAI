@@ -55,9 +55,8 @@ SHARP = "^"
 FLAT = "_"
 
 class Trie():
-    def __init__(self, degree):
+    def __init__(self):
         self.root = Node(None)
-        self.degree = degree
 
     def convert_to_numeric(self, key):
         """Converts note sequence into number sequence.
