@@ -20,5 +20,5 @@ def main():
         melodies.append(generated_melody)
     print(melodies)
 
-if __name__ == main():
+if __name__ == '__main__':
     main()
