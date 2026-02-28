@@ -8,7 +8,8 @@ def get_dataset():
         input_dataset = input("Choose genre ('folk' or 'bach'): ")
         try:
             dataset = validate_dataset(input_dataset)
-        except:
+        except ValueError:
+            print("Invalid dataset name. Options: 'folk', 'bach'")
             continue
         break
     return dataset
@@ -19,7 +20,8 @@ def get_key():
         input_key = input('Key: ')
         try:
             key = validate_key(input_key)
-        except:
+        except ValueError:
+            print("Invalid key")
             continue
         break
     return key
@@ -30,7 +32,8 @@ def get_degree():
         input_degree = input("Degree: ")
         try:
             degree = validate_degree(input_degree)
-        except:
+        except ValueError:
+            print("Invalid degree")
             continue
         break
     return degree
@@ -52,7 +55,8 @@ def get_seed():
             input_seed = input(f"Give your notes in the form (note1 note2). Include sharps and flats only for notes outside of the key: ")
             try:
                 seed = validate_seed(input_seed)
-            except:
+            except ValueError:
+                print("Invalid seed. Seed format: (note1 note2 note3)")
                 continue
     return seed
 
@@ -62,7 +66,8 @@ def get_length(seed_length):
         input_length = input("How long should the generated melody be?: ")
         try:
             length = validate_length(input_length, seed_length)
-        except:
+        except ValueError:
+            print("Invalid length")
             continue
         break
     length -= seed_length
@@ -74,7 +79,8 @@ def get_amount():
         input_amount = input("How many songs do you want to generate?: ")
         try:
             amount = validate_amount(input_amount)
-        except:
+        except ValueError:
+            print("Invalid song amount")
             continue
         break
     return amount
