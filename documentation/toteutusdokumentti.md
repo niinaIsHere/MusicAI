@@ -2,7 +2,7 @@
 
 ## Ohjelman yleisrakenne
 
-MusicAI sisältää documentation ja music_generation kansiot. music_generation sisältää datan, testit, testidatan ja ohjelman erillisissä kansioissa.
+MusicAI sisältää documentation ja music_generator kansiot. music_generator sisältää datan, testit, testidatan ja ohjelman erillisissä kansioissa.
 
 Ohjelma on jaettu eri moduuleihin käyttötarkoituksen mukaan. Moduuleja on kuusi: data, input_validation, input, trie, trainer ja generator.
 
@@ -31,9 +31,9 @@ Aikavaativuus O(n) selittyy sillä, että generointi tekee aina niin sanotusti s
 
 ## Puutteet ja parannukset?
 
-Yksi puute on, että tällä hetkellä ohjelma käyttää vain yhtä tiedostoa datana. Tiedosto sisältää tuhansia folk-kappaleita abc-notaatiolla kirjoitettuna. Sinänsä data on ihan hyvä, koska folk-kappaleet liikkuvat aika hyvin sävellajissa, mutta variaatio dataan olisi ehkä ollut hyvä. Lisäksi datatiedosto sisältää melko eri määrän kappaleita eri sävellajeissa, joten eri sävellajit eivät ole ns. tasa-arvoisessa asemassa datan suhteen.
+Datatiedostot sisältää melko eri määrän kappaleita eri sävellajeissa, joten eri sävellajit eivät ole ns. tasa-arvoisessa asemassa datan suhteen. Bach-kappaleita ei ole ollenkaan sävellajeissa Fm tai Bm, joka on selkeä puute. Muutenkin mollisävellajeja on Bach-datasetissä vähän verrattuna duureihin. Lisäksi datasettejä on nyt vain kaksi ja lisää vaihtoehtoja olisi ollut hyvä.
 
-Datan suhteen löytyi toteutusvaiheessa toinenkin melko iso käytännön ongelma. Data sisältää folk-kappaleita ja en tiennyt, että juuri folk-musiikkia kirjoittaessa ei abc-notaatiossa käytetä etumerkkejä. Jouduin siis tehdä sävellajimuuntimen generointiin.
+Parannus olisi, että olisi saanut mukaan generoitua rytmin.
 
 ## Laajojen kielimallien käyttö:
 
