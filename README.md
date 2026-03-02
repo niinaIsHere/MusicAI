@@ -1,14 +1,20 @@
 # MusicAI
 
-Application generates melodies (note sequences) from optional user seed in chosen key.
+Application generates melodies (note sequences) from optional user seed in chosen style and key and optionally saves them into a file.
 
 ## Use:
 Clone repository
 
-navigate to the project root, a folder named 'music_generator'
+navigate to the project root, a folder named 'music_generator'. Path: MusicAI/music_generator:
+```sh
+cd music_generator
+```
+run the project with command: 
+```sh
+python src/main.py
+```
 
-run the project with command: python src/main.py
-
+### Input instructions:
 1. Pick a style for your melodies from the options 'folk' and 'bach'. Folk melodies are generated based on a folk training dataset  
    and bach melodies based on songs by the classical composer J.S. Bach.
 2. Pick a key for the generated melodies.  
@@ -27,9 +33,17 @@ run the project with command: python src/main.py
        High c-sharp and c-flat: ^c', _c'
        EXAMPLE MELODY (for the sake of format):  
           'c d e ^F G c' _d'  
-7. Choose the length of the generated melody.
-
-The melody length includes the seed, so if you want a melody with 5 notes and give a seed of 5 notes the generated melody will result in only the seed.
+7. Choose the length of the generated melody. The melody length includes the seed, so if you want a melody with 5 notes and give a seed of 5 notes  
+   the generated melody will result in only the seed.
+9. Choose how many songs you want to generate with these settings.
+10. From the printed melodies, choose which ones you want to write into the output.txt file:
+    If you want all of them, write 'all',  
+    if you want none of them, write '0',  
+    if you want some of them, write their place in the order of generation:  
+    generated 3 songs, you want the first and second one, write '1 2'.
+11. Choose if you want to write the songs into an empty file or append onto previously saved melodies:
+    If you want to write into an empty file, write 'y',
+    if you want to keep the file contents, write something other than 'y'.
 
 ## Määrittelydokumentti
 
