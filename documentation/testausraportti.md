@@ -2,11 +2,11 @@
 
 ## Mitä testattu, miten?
 
-Käytin pytestiä yksikkötesteihin. Kaiken kaikkiaan 32 testiä.
+Käytin pytestiä yksikkötesteihin. Kaiken kaikkiaan 39 testiä.
 
 Testasin koko ohjelman toiminnan kahdella testillä test_full:ssa. Määrittelin syötteet vakioiksi tiedostoon ja niiden avulla tein test_pipeline() - testin, joka vie menee ohjelman toiminnan läpi ja tarkistaa, että lopputulos on oikeanlainen. Testi tarkistaa, että generoitu melodia on halutun pituinen ja että se alkaa seedillä. Lisäksi testasin, että generoidun melodian transitiot löytyvät triestä. Toinen pipeline testi on samanlainen, mutta se käyttää datana oikeaa dataa ja testaa generoidun melodian transitiot alkuperäistä dataa vasten.
 
-Testasin datan käsittelyä tekemällä testidatatiedostot ja käyttämällä niitä testeissä. Testasin tiedoston valmistelemista, datan suodattamista ja parsaamista. Testejä datan käsittelylle on kolme. Filter ja parse testeissä on luotu testin sisällä testidatatiedostoa vastaava oikea tuloste ja testin lopuksi tarkistetaan, että metodin tulos ja oikea tulos on sama.
+Testasin datan käsittelyä tekemällä testidatatiedostot ja käyttämällä niitä testeissä. Testasin tiedoston valmistelemista, datan suodattamista, parsaamista ja kirjoittamista tiedostoon sekä tiedoston tyhjentämistä. Testejä datan käsittelylle on viisi. Filter ja parse testeissä on luotu testin sisällä testidatatiedostoa vastaava oikea tuloste ja testin lopuksi tarkistetaan, että metodin tulos ja oikea tulos on sama. Datan kirjoittamista tiedostoon varten on tehty tiedosto testidatan outputtaamiselle. Testi-output tiedoston tyhjentäminenkin testataan.
  
 Testasin trien toimintaa viidellä testillä. Testasin trieen melodian lisäämistä lisäämällä melodian ja tarkistamalla, että melodia on triessä. Testasin, että etsimällä triessä olematonta melodiaa palautetaan None. Testasin, että trien frekvenssit ovat oikein lisäämällä tietyn määrän tiettyjä melodiakulkuja ja tarkistamalla, että niillä etsiessä seuraajien frekvenssit ovat oikeat. Testasin nuottinimien muunnosta luvuiksi ja toisinpäin testaamalla, että alkuperäinen melodia ja muunnosten jälkeinen melodia on sama.
 
