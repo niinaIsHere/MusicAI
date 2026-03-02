@@ -1,7 +1,7 @@
 """Tests for input_validation.py"""
 
 import pytest
-from src.input_validation import validate_degree, validate_length, validate_seed, validate_key, validate_amount
+from src.input_validation import validate_degree, validate_length, validate_seed, validate_key, validate_amount, validate_output_choice
 
 SEED_LENGTH = 3
 DEGREE = 3
@@ -56,7 +56,6 @@ def test_length_shorter_than_seed():
 
 def test_valid_seed():
     """Tests a valid seed gets returned as valid"""
-    degree = 4
     seed = "^c' a _b c'"
     result = validate_seed(seed)
     assert result == ["^c'", 'a', '_b', "c'"]
@@ -83,7 +82,7 @@ def test_valid_amount():
 def test_amount_not_integer():
     """Checks a non-integer amount doesn't pass"""
     with pytest.raises(ValueError):
-        validate_amount('three')    
+        validate_amount('three')
 
 def test_amount_too_small():
     """Checks an amount less than 1 doesn't pass"""
@@ -94,3 +93,37 @@ def test_amount_too_large():
     """Tests an amount larger than 100 doesn't pass"""
     with pytest.raises(ValueError):
         validate_amount('101')
+
+def test_output_choice_index_too_high():
+    """Tests user trying to save a melody with an index higher than
+    the highest possible index raises value error
+    """
+    with pytest.raises(ValueError):
+        validate_output_choice('5', 4)
+
+def test_output_choice_neg_index():
+    """Tests user trying to save melody with negative number raises value error"""
+    with pytest.raises(ValueError):
+        validate_output_choice('-1', 2)
+
+def test_output_choice_valid():
+    """Tests a valid output choice results in a list with the correct indices"""
+    choice = '1 2'
+    result = validate_output_choice(choice, 3)
+    expected = [0, 1]
+    assert result == expected
+
+def test_output_choice_all():
+    """Tests a user choosing to output all melodies results in
+    a list with the correct indices
+    """
+    choice = 'all'
+    result = validate_output_choice(choice, 3)
+    expected = [0, 1, 2]
+    assert result == expected
+
+def test_output_choice_none():
+    """Tests a user choosing to output nothing results in None"""
+    choice = '0'
+    result = validate_output_choice(choice, 3)
+    assert result is None

@@ -20,5 +20,14 @@ def main():
         melodies.append(generated_melody)
     print(melodies)
 
+    output_melodies = user_input.get_melody_out(melodies)
+    if output_melodies:
+        counter = 0
+        if user_input.get_overwrite():
+            data.clear_output_file()
+        for number in output_melodies:
+            counter += 1
+            data.write_into_file(melodies[number], counter)
+
 if __name__ == '__main__':
     main()

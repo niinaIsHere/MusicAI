@@ -6,6 +6,7 @@ FILES = {'folk': 'melodies/ireland.txt',
          'test filter': 'testdata/filter_test_data.txt',
          'test full': 'testdata/full_test_data.txt'}
 
+
 VALID_NOTE_NAMES = set({'C', 'D', 'E', 'F', 'G', 'A', 'B', 'c', 'd', 'e' ,'f', 'g', 'a', 'b'})
 VALID_HIGHER_OCTAVE_NOTES = set({'c', 'd', 'e', 'f', 'g', 'a', 'b'})
 OCTAVE_JUMP = "'"
@@ -103,3 +104,19 @@ def parse(file):
             # update variable 'previous'
             previous = symbol
     return testlist
+
+def write_into_file(melody, counter, file='melodies/output.txt'):
+    """Converts a melody into a song in abc notation into the output.txt file"""
+    abc_file_start = f'X:{counter}\n'
+    abc_file_end = '|]\n\n'
+    abc_melody = ''
+    for note in melody:
+        abc_melody += note
+    
+    with open(file, 'a') as f:
+        f.write(abc_file_start + abc_melody + abc_file_end)
+
+def clear_output_file(file='melodies/output.txt'):
+    """Clears the output.txt file contents"""
+    with open(file, 'w') as f:
+        f.write('')

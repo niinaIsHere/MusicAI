@@ -8,11 +8,12 @@ def validate_dataset(dataset):
     """Checks the dataset choice is valid"""
     if dataset in VALID_DATASETS:
         return dataset
-    else:
-        raise ValueError
+    raise ValueError
 
 def validate_key(key):
-    """Checks if input key is in the set of valid keys and returns it if is, else returns ValueError."""
+    """Checks if input key is in the set of valid keys and returns it if is,
+    else returns ValueError.
+    """
     if key in VALID_KEYS:
         return key
     raise ValueError
@@ -76,3 +77,26 @@ def validate_amount(amount):
     if amount < 1 or amount > 100:
         raise ValueError
     return amount
+
+def validate_output_choice(choice, length):
+    """Validates the user choice for melodies to be written into output.txt.
+    If invalid choice, raises value error.
+    """
+    if choice == 'all':
+        return list(range(length))
+    if choice == '0':
+        return None
+    
+    numbers = choice.split()
+    takeout = []
+    for num in numbers:
+        try:
+            value = int(num)
+            if value < 1:
+                raise ValueError
+            if value > length:
+                raise ValueError
+            takeout.append(value-1)
+        except:
+            raise ValueError
+    return takeout

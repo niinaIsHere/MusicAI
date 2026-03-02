@@ -118,11 +118,10 @@ class Trie():
 
         candidates = []
         frequencies = []
-        max_count = 0
         for child in x.children:
             node = x.children[child]
             if node is not None:
-                max_count = max(max_count, node.count)
+                print("node", node, "child", child)
                 candidates.append(child)
                 frequencies.append(node.count)
         candidates = self.convert_to_notes(candidates)
