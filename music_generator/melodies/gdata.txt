@@ -1,134 +1,762 @@
-K:Em
-V:1
-[G2B2e2]z2 z4[B2e2g2]z2 z4|[A2c2f2]z2 z4[A2c2f2]z2 z4|
-V:1
-[B2f2]z2 z4[B2f2a2]z2 z4|[B2e2g2]z2 z4[B2e2g2]z2 z4|
-V:1
-[A2c2f2]z2 z4[B2f2b2]z2 z4|[G2B2e2]z2 z4[A2e2a2]z2 z4|
-V:1
-[F2A2d2]z2 z4[G2d2g2]z2 z4|[E2G2c2]z2 z4[F2A2c2]z2 z4|
-V:1
-[D2F2A2c2]z2 z4[D2G2B2]z2 z4|[E2A2e2]z2 z4[A2c2f2]z2 z4|
-V:1
-[G2B2e2g2]z2 z4[G2B2]z2 z4|[=F2A2c2]z2 z4[F2B2d2]z2 z4|
-V:1
-[G2c2e2]z2 z4[G2E2]z2 z4|[D2F2A2]z2 z4[D2^G2B2]z2 z4|
-V:1
-[E2A2c2]z2 z4[E2A2c2]z2 z4|[^D2A2c2]z2 z4[E2A2c2]z2 z4|
-V:1
-[F2A2c2]z2 z4[F2A2B2]z2 z4|[E2^G2B2e2]z2 z4[E2=G2^A2e2]z2 z4|
-V:1
-[F2A2^d2]z2 z4[G2B2e2]z2 z4|[G2^c2e2]z2 z4[F2B2^d2]z2 z4|
-V:1
-[G2B2e2]z2 z4[E2^G2B2d2]z2 z4|\
-[E2A2c2]z2 z4^DA,B,C B,CB,A,|H[^G,16B,16E16]|]
-K:Em
-V:1
-zEGBGE|e2B2e2|^dBdfdB|b2f2b2|gfe=dcB|Acegfe|fedcBA|GBd=fed|
-V:1
-e2P^f2g2|Pd4z2|g2Mf2g2|abc'2z2|b2Ma2g2|a2c2B2|g2Mf2e2|f2A2G2|
-V:1
-e2fed^c|f2gfed|^cedcB^A|[1PB6:|[2PB6|:z^DF=AF^D|=c2B2A2-|A^GBdB^G|=f2e2d2-|
-V:1
-dcBAa2-|a=fgad2-|dBAGg2-|ge=fgc2-|c=fBeAd|Gc=FBEA|^GAcBAG|PA4z2|
-V:1
-zEA^GAc|^FcEcDc|BD=GFGB|EBDBCB|AGFAEA|^DAEAFA|GBe^def|^dB^c^def|
-V:1
-gfgeae|f=cBAGB|e=decfc|dAGFEG|cE^DEFG|ABcAf2-|fBegf^d|[1Pe6:|[2Pe6|]
-K:Em
-[K: transpose=-12][G,e][F, f] |\
-[E,2g2][A,f]e [B,2^d2][A,e]f |\
-[G,2B2][F,^c]^d [E,2e2][F,=d]=c |\
-[G,2B2][A,A]G [B,2F2][A,G]A |\
-[G,B]A [B, G] F [E,E]-[F, E] [G, e] [F, f] |\
-[E,2g2][A,f]e [B,2^d2][A,e]f |\
-[G,2B2][F,^c]^d [E,2e2][F,=d]=c |\
-[G,2B2][CA]G [D2F2][DD]G |\
-[G,6B,6D6G6]:|
-|: [G,B]G |\
-[F,2d2][DA]c [G,2B2][B,g]d |\
-[C2e2][^G,B]d [A,2c2][DB]A |\
-[E2^G2][A,A]B [E2c2][E,B]A |\
-[A,A]-[B, A] A, G, F,2[Dd]A |\
-[G2B2][B,g]d [C2e2][^G,B]d |\
-[A,2c2][^Ca]e [D2f2][^A,^c]e |\
-[B,2d2][E^c]B [F/^A/]-[F/ B/]-[F/ ^A/]-[F/ B/] F, B |\
-[B,B]^A, B, ^C ^D2[B,b]f |\
-[E2^g2][Df]e [C2a2][A,e]=g |\
-[D2f2][Ce]d [B,2g2][G,d]=f |\
-[C2e2][B,a]e [A,2f2][^A,^c]e |\
-[B,2^d2]B2-BC B, A, |\
-[G,e]B [A, c] E [Fd]A [G, B] ^D |\
-[Ec]G [F, A] ^C [DB]F [E,2G2]|\
-[A,F]E [B,2^D2][A,E]F [B,2G2]|\
-FE [E,4E4]:|
+K:C
+G2|:\
+c2d2e2f2| g3ag2f2| (eg).e.c (df).d.B| (cBcd) c2G2|\
+c2d2e2f2| g3ag2f2| (eg).e.c (df).d.B| c4 c4:|
+|:e4d4| e2e2 {g}f4| e2e2 d2d2| e2e2 f4{ef} |\
+g2c'2g2c'2| g3ag2f2| egec dfdB| c4 c4:|
 
-K:Em
-V:2
-E,G,A,B, A,B,A,G,  E,G,A,B, A,B,A,G,|\
-E,A,B,C B,CB,A, E,A,B,C B,CB,A,|
-%
-V:2
-^D,F,G,A, G,A,G,F, D,F,G,A, G,A,G,F,|\
-E,G,A,B, A,B,A,G,  E,G,A,B, A,B,A,G,|
-%
-V:2
-E,F,G,A, G,A,G,F, D,F,G,A, G,A,G,F,|\
-D,E,F,G, F,G,F,E, C,E,F,G, F,G,F,E,|
-%
-V:2
-C,F,G,A, G,A,G,F, B,,G,A,B, A,B,A,G,|\
-B,,E,F,G, F,G,F,E, A,,F,G,A, G,A,G,F,|
-%
-V:2
-G,A,B,C B,CB,A, G,B,CD CDCB,|G,^CDE DEDC F,^DEFE FED|
-%
-V:2
-E,F,G,A, G,A,G,F, E,G,A,B, A,B,A,G,|E,A,B,C B,CB,A, D,B,CD CDCB,|
-%
-V:2
-C,D,E,=F, E,F,E,D, C,E,^F,G, F,G,F,E,|\
-C,F,G,A, G,A,G,F, B,,^G,A,B,A, B,A,G,|
-%
-V:2
-A,B,CD CDCB, =G,A,B,C B,CB,A,|F,A,B,C B,CB,A, E,A,B,C B,CB,A,|
-%
-V:2
-^D,A,B,C B,CB,A, D,F,G,A, G,A,G,F,|\
-D,G,A,B, A,B,A,G, ^C,E,F,=G, F,G,F,E,|
-%
-V:2
-C,F,G,A, G,A,G,F, B,,E,F,G, F,G,F,E,|\
-^A,,E,F,G, F,G,F,E, B,,F,G,=A, G,A,G,F,|
-%
-V:2
-E,F,G,A, G,A,G,F, E,^G,A,B, A,B,A,G,|\
-E,A,B,C B,CB,A, [F,2E,2]z2 z4|H[E,,16E,16]|]
 
+
+
+
+
+K:C
+A/G/|F3 AGG|AFF GEC|DED c2 A|ded cAG|
+F3 AGG|AFF GEC|DED D2 d|DED D2||c|
+c3 cAc|dcA GEC|DED c2 A|ded cAG|
+ABc edd|ecA GEC|DED D2 d|DED D2||
+
+
+
+
+
+
+K:C
+G|\
+c2G EFG| fed cBA| Gce f2e| "tr"e3 d2d|\
+d2c B2A| GBd g2d| e2A (B/c/d).B| G3-G2::
+d|\
+e2c A2c| (B/c/d).B G2d| (e/f/g).g gec| {e}d3-d2e/f/|\
+gec ceg| dBG G2G| A2f efd| c3 c2:|
+
+
+
+
+
+
+K:C
+c|e2d c2A|GEE c2d|e2d c2A|GEA GED|e2d c2A|GEE c2d|edc dcA|GEA GED:|
+||ABA AGE|c3 DED|ABA AGE|GED DED|ABA AGE|c3 c2d|edc dcA|GEA GED:|
+
+
+
+
+
+
+K:C
+g4 (efg)a| g4 (efg).a| g2e2f2d2| (cBc).d (cde).f| \
+g4 (efg).a| g4 (efg)a| g2e2f2d2| c4 c4||
+G4 G2G2| A4 A2A2| f4 (edc).B| (cBc).d c2c2|\
+G4 G2G2| A4 A2A2| a4 gfed| c4 c4|]
+
+
+
+
+
+
+K:C
+V:1
+c/B/ |"C" cC EG |c3 c/B/|c CE G|
+"G7" d3 c/B/|"C" c C"C7" E G|"F" A fe d|"D7" c/B/ A/G/"G7" A B|
+|1 "C" c3 :|2 "C" c3 e/f/||  |:"C" g3/2 e/"G7" f3/2 d/|"C" ec ce/f/ |
+"C" g3/2 e/"F" f3/2 g/|"Dm" ad de/f/ |"C" g3/2 e/"G" f3/2 d/|"Am" e3/2 c/d3/2 "Em" c/|
+"F" c/B/A/ G/"G7" AB |1 "C" c3 e/f/:|2 "C" c3 ||
+
+
+
+
+
+
+K:C
+B,CD|"C"E3D  EAGE|"F"DCA,2 z CEF|
+w:Oh, Dann-y Boy, the pipes, the pipes are call-*ing, From glen to
+"C"G3A  GE"Am"CE|"D7"D4 "G7"z B,CD|
+w:glen and down the moun-tain side. The sum-mer's
+"C"E3D  EA"C7"GE|"F"DCA,2 "G7"z B,CD|
+w:gone and all the leaves are fall-*ing, 'Tis you, 'tis
+"C"E3F  "G7"EDCD|"C"C4 "G7"z GAB|
+w:you must go and I must bide. But come ye
+"C"c3B  "F"BA"G7"GA|"C"GEC2 "G7"z GAB|
+w:back, when sum-mer's in the mead-*ow, and all the
+"C"c3B  "F"BA"A7"GE|"D7"D4 "G7"z GGG|
+w:val-ley's hushed and white with snow. And I'll be
+"C"e3d  "F"dcAc|"C"GE"Am7"C2 "F"z B,"G7"CD|
+w:here in sun-shine or in sha-*dow, Oh, Dann-y
+"C"EAGE  "G7"DCA,B,|"C"C4|]
+w:Boy, Oh, Dann-y Boy, I love you so!
+W:
+W:Oh, Danny Boy, the pipes, the pipes are calling,
+W:From glen to glen and down the mountain side.
+W:The summer's gone and all the leaves are falling,
+W:'Tis you, 'tis you must go and I must bide.
+W:  But come ye back, when summer's in the meadow,
+W:  and all the valley's hushed and white with snow.
+W:  And I'll be here in sunshine or in shadow,
+W:  Oh, Danny Boy, oh, Danny Boy, I love you so!
+
+
+
+
+
+
+K:C
+G2|\
+c4 Bc|A4 GE|D2 DE GF|ED C2 C2|C4 zF| E2 DCDE|G2 G2 (3ABc|
+d3 ced|cA GE D2|D4 zF|E2 DCDE|G2 G2 (3ABc|d3 ced|
+cA G2 F2| E4 ((3GAB)|c4 Bc|A4 GE|D2 DE GF|ED C2 C2|C4||
+
+
+
+
+
+
+K:C
+D|DAA AGE|EDC D2D|ddd cde|edc d2A|\
+ddd cBA|cBc ABc|dcA AGG|FEC DCD|
+c2B AGE|D2C D3|d2d cde|edc d3|d2d cBA|\
+cBG ABc|dcA AGG|FEC DCD|c2B AGE|D2C D2||
+
+
+
+
+
+
+K:C
+"Am" EA2 ^GA Bc A|E A2 ^GA2 A2 |EA2 ^GA Bc e|"G" d cB AG2 G2 |
+"Am" EA2 ^GA Bc A|E A2 ^GA2 A2 |EA2 ^GA Bc e|"G" d cB AG2 G2 |
+"Am" c2 "G" ec "C" dc BG |c2 ec "Am" A2 AB |cB cd ef ge |"G" dc BA G2 G2 |
+"Am" c2 "G" ec "C" dc BA |c2 ec "Am" A2 AB |cB cd ef ge |"G" dc BA G2 G2 :| |:
+"Am" A2  (3cBA c3 c|"G" B Gd Ge Gd G|"Am" A2  (3cBA cA eA |"G" cA dA "Am" e4 :| |:
+"Am" A2 a2 ee a2 |"G" ge dB dB eB |"Am" A2 a2 ee a2 |"G" ge ^fd "Am" e4 :| |:
 K:Em
-V:2
-PE,2E,,2z2|zE,G,B,G,E,|PB,2B,,2z2|zB,^DFDB,|E2G2E2|\
-C2A,2C2|D2F2D2|B,2G,2B,2|
-%
-V:2
-CB,A,CG,C|F,CE,CD,C|B,CA,CG,C|F,CE,CD,C|G,B,F,B,E,B,|\
-F,B,E,B,^D,B|E,B,=D,B,^C,B,|D,B,^C,B,B,,B,|
-%
-V:2
-^C,B,D,B,E,B,|D,B,E,B,F,B,|G,2E,2F,2|[1B,,^D,F,=A,G,F,:|\
-[2B,,2F,2B,2|:PB,2B,,2z2|zB,,^D,F,D,B,,|PE,2E,,2z2|zE,^G,B,G,E,|
-%
-V:2
-A,A,,B,,C,D,E,|=F,D,E,F,G,A,|B,G,A,B,CD|ECDE=FG|A2G2=F2|E2D2C2|\
-D2E2E,2|A,=F,E,D,C,B,,|
-%
-V:2
-A,,2B,,2C,2|D,2E,2^F,2|=G,,2A,,2B,,2|C,2D,2E,2|F,,2G,,2A,,2|\
-B,,2^C,2^D,2|E,2=C,2A,,2|B,,2zB,^C^D|
-%
-V:2
-E2=D2=C2|D2F,2E,2|C2B,2A,2|B,2E,2D,2|A,2B,A,G,F,|\
-E,^D,E,D,^C,B,,|E,2G,,2B,,2|[1E,,B,,E,F,G,A,:|[2E,,6|]
+"Em" eE EF B2 Bc |"D" dB Ad BE AF |"Em" EF GA B2 Bf |"D" ed Bd "Em" e2 ef :|
+"Em" eB ef gb eg |"D" fa da fd af |"Em" eB ef gb eg |"B7" f_e B_e e2 ef |
+"Em" eB gB gb eg |"D" fd ad fa df |"Em" bg eg bg eg |"B7" f_e B_e "Em" e4 |]
+
+
+
+
+
+
+K:C
+"Mod.: rather slow."\
+F|E>CEF|GEGA|c>Bce|G2 EG|A2 ed|cGED|C>EAG|A3||c|
+G>EGA|cd eg|fede|g2 e>d|cAGE|DEA>G|ECC>D|C3||
+
+
+
+
+
+
+K:C
+C2C EEF|G2F E2C|E2D C2C|C6|\
+G2G d-cB|c2c G2B|c2c B/-G3/2E|F3- F2G|
+c2c d-cB|c2c G2B|c2c B/-G3/2E|F3- F2G-|\
+A2A _B-GE|EE2 C2E|F2E C2C|C6||
+
+
+
+
+
+
+K:C
+c2Bc AGED|CA,~A,2 G,A,CD|EGcd ecdc|Addc dfed|
+c2Bc AGED|CA,~A,2 G,A,CD|EGce dBcA|GEDF ECEG:|
+|:c2gc acgc|fdec dcAc|Gc~c2 Gcea|gece d2eg|
+ae~e2 gede|cdec dcAG|EGce dBcA|GEDF ECEG:|
+"variations"
+|:c2ec AGED|CA,~A,2 G,A,CD|EGcd ecdc|Ad~d2 fded|
+~c3G AGED|CA,~A,2 G,A,CD|EGce d2cA|GEDE C2EG:|
+|:c2gc acgc|fdec dcAc|GccB cdea|gece defg|
+agea gede|c2ec dcAG|EGce d2cA|GEDE C2EG:|
+
+
+
+
+
+
+K:C
+A|D2D F2G|A2d d2e|d2c A2G|A3- A2A|\
+D2E F2G|A2A G2A|F2D C2C|C3- C2C|
+D2D F2G|A2A G2G|A2d d2e|d3- d2d/e/|\
+f2e d2c|A2A A2A|GF2 D2D|D2-D3||
+
+
+
+
+
+
+K:C
+GG|"C"c2B2 c2d2|"Bb"c2_B2 "Gm"G4|"C7"_B2A2 B2c2|"F"A2F2G6GF|
+"C"E2C2c6dc|"Bb"_BBA2 "C"G3F|"C"E2C2 "Dm"D2G-F|"G7"E2"C"C2"F"C6EF|
+"C"GFEF "Dm"GFEF|"G7"GFED "C"C2DE|"F"FEDE "Dm"FEDE |"G"FEDCB,6GF|
+"C"E2C2c6dc|"Bb"_BBA2 "C"G3F|"Dm"E2C2 "G7"D2G-F|"C"E2"F"C2"C"C6||
+
+
+
+
+
+
+K:C
+V:1
+c/B/ |cC CG/F/ |E/G/c cd/^c/ |dD Dd/c/ |
+B/d/g ga/b/ |c'/b/a/g/ a/g/f/e/ |f/e/d/c/ d/c/B/A/ |G/A/B/c/ d/e/f/d/ |
+ec c:| |:G/F/ |E/G/c/G/ E/G/c/G/ |AF FA/G/ |
+^F/A/d/A/ ^F/A/d/A/ |BG GA/B/ |ca/g/ a/g/f/e/ |f/e/d/c/ d/c/B/A/ |
+G/A/B/c/ d/e/f/d/ |ec c:|
+V:2          %Horlepyp (bas)
+z |C,z z2 |C,z z2 |G,z z2 |
+G,z z2 |C,z G,z |F,z C,z |G,z D,z |
+C,z2 :| |:z|C, zG, z|F, zz2 |
+D,z A,z |G,z z2 |C,z G,z |F,z C,z |
+G,z D,z |C,z2 :|
+V:3          %Horlepyp (bas) (bas)
+z|z [E,G, C][E,G,C]z|z [E,G, C][E,G,C]z|z [F,G, B,][F,G,B,]z|
+z [F,G, B,][F,G,B,]z|z [E,G, C]z [E,G, C]|z [F,A, C]z [F,A, C]|z [F,G, B,]z [F,G, B,]|
+z [E,G, C][E,G,C]:| |:z|z [E,G, C]z [E,G, C]|z [F,A, C][F,A,C]z|
+z [F,A, D]z [F,A, D]|z [G,B, D][G,B,D]z|z [E,G, C]z [E,G, C]|z [F,A, C]z [F,A, C]|
+z [F,G, B,]z [F,G, B,]|z [E,G, C][E,G,C]:|
+
+
+
+
+
+
+K:C
+g3g agfe| e2e2 fedc|\
+(cd)(eg) g2ag| ga/g/ fe ec "tr"d2|\
+g3g fedc| e3e fedc|
+ceeg gf/g/ af| edcB c4 ::\
+d3d edd2| d/f/e/g/ "tr"fe "tr"d2c2| \
+ceeg g2ag| ga/g/ fe "tr"e2d2|
+g3g agfe| e3e fedc| \
+ceeg gf/g/ af| e2d2 c4:|
+
+
+
+
+
+
+K:C
+G>AG c2e|d<dA c2e|G>AG c2d|ecA A2c|G>AG c2e|d<dA c2e|g>fe f2d|ecA A2({B/A/}G):|
+|:gfe f2d|edc f2d|gfe f2d|ecA A2G|gfe f2d|edc f2d|G>AG f2d|ecA A2({B/A/}G):|
+
+
+
+
+
+
+K:C
+d|:cAGE ~G3A|GEcE ~G3d|cAGE ~G3A|GEcE EDDd|
+cAGE ~G3A|GEcE ~G3A|c2ec ~g3e|1 dcAG EDDd:|2 dcAG EDD2||
+|:c2ec gcec|~g3a gede|c2ec gceg|gedc AGEG|
+c2ec gcec|~g3a gedg|gedc d2ed|1 cAGE ED~D2:|2 cAGE EDD||
+"version 2"
+e|:dcAE ~G3A|GEcE ~G3e|dcAE ~G3A|GEcE EDDe|
+dcAE ~G3A|GEcE ~G3z|gaeg dged|1 cAGE D3e:|2 cAGE D3B||
+|:c2ec gcec|~g3a gede|c2ec gcec|GAcd eddB|
+c2ec gcec|~g3a geda|agec d2ed|1 cAGE D3B:|2 cAGE D3||
+
+
+
+
+
+
+K:C
+A>-G |F2 D2 E-F|C2 D2 F2|G2 F2 D2|D4 DE|\
+F2 G2 A2|d2 c2 d-c|A2 F2 G2|A4 C2|
+F2 G2 A2|d2 c2 d-c|A2 F2 G2|A4 c-A|\
+G2 F2 D-F|C2 D2 F2|G2 F2 D2|D4 ||
+
+
+
+
+
+
+K:C
+g/f/e/d/|\
+c2c>c c2f/e/d/c/| d2d>d d2e>f| g>eg>e gfed| c2c>c c2(g/f/e/d/)|
+c2c>c c2(f/e/d/c/)| Bcde ^fgac'| bg ^f/e/d/c/ B2"tr"A2| G2G>G G2::
+G/A/B/c/| \
+dBfd ecge| dBfd ecge|a3g fedc| d2d>d d2g>f|
+e2g>e d2g>f| e/g/e/g/ f/e/d/c/ d2e>f| gecG AdcB| cdef gabc'|\
+gecG AdcB| c2c>c c2:|
+
+
+
+
+
+
+K:C
+V:1
+"G7" G,2 |"C" C2 CC "Am" ED EF |"Em" G2 GG "Am" E2 EE |"Dm" D2 D2 D2 DE |
+"Dm" FE DC "G7" B,2 G,G, |"C" C2 CC "Am" ED EF |"Em" G2 GG "Am" E2 EE |"Dm" D2 D2 "G7" E2 ED |
+"F" C2 C2 "C" C4 |"C" G4 "Am" E3 D|"C" E FE D"Am" C4 |"C" E2 EF G2 FE |
+"Dm" D2 D2 "G7" D2 G,G, |"C" C2 C2 "F" C3 D|"C" E D"G7" E F"C" G2 FE |"Dm" D2 D2 "G7" E2 ED |
+"C" C2 "F" C2 "C" C4 |]EE |"Dm" D2 D2 "G7" E2 ED |"C" C2 "F" C2 "C" C2 |]
+
+
+
+
+
+
+K:C
+"G-3"  d2 ({cd}(c)B)    (B_A)     (BA) |           (G3_   A     GF     G2)||\
+"Bb-3" F2      (FE)      F2        G2  |"C"         G6                 z2 ||
+"Eb-3"_B2      (BA) ({B}(A)G)      GF  |"Bb-3"     (F E2  F     ED "Em"E2)||\
+"C-3"  G2       F2   ({F}E)_D     (ED) |"C"         C8                    ||
+"F-3"  c2       cB       c2        d_e |"G-3"({d_e}(d)c- c2- "C"c3)       ||\
+(B|"G-3"  d2)     (cB)     (B_A) ({c}(B)A)|"G"         G8                    ||
+"Bb-3" F2      (FE)      F2        G2  |"C"         G6                 z2 ||\
+"G-3"  d2 ({cd}(c)B)    (B_A)     (BA) |"G"         G6                 z2 ||\
+"Bb-3" F2      (FE)      F2        G2  |"C"         G8                    ||
+"Eb-3"_B2      (BA) ({B}(A)G)     (GF) |"C"        (E3    F     E_D    E2)||\
+"Bb-3" G2      (GF) ({F}(E)_D)    (ED) |"C"         C8                    |]
+
+
+
+
+
+
+K:C
+d/c/|\
+A2A2 Ac|d2de de|dc AG Ac|d2 de d2|\
+cB AG ED|C2 CD C2|AG ED EG|A2 Ac A2|
+c2 ce ce|d2 de d2|ed eg ag|"tr"e3 d c2|\
+cB cd ed|cd cB AG|E>D CE GE|D2DE HD||
+D/C/|\
+A,2 A,2 DE|GE GA G2|GE DC EG|A2 Ac A2|\
+cB cd ed|cA cd eg|ag ed ce|d2 de d2|
+cB AG E>D|C2 CD C2|AG ED EG|A2 Ac A2|\
+c2 GE C2|d2cB AG|E>D CE GE|D2DE HD||
+
+
+
+
+
+
+K:C
+d|"Am"e2e d2e|c2A "G"G3|"Am"AAA "G"G-EG|"Am"A2A zc-d|\
+"Am"e2e d2e|ccA "G"G2B|"Am"AAA "G"G-EG|"Am"A2A2zE|
+"Am"A2A c2d|"C"e2d c2d|"Am"e2a a2g|a2e2zg|\
+"Am"a2e d2e|c2A "G"G2G|"Am"A2A "G"G-EG|"Am"A2A4-|A3 z2||
+
+
+
+
+
+
+K:C
+ed|\
+c2 A2 A2 Bc|dcAF G2 cd|edce dcAG|A2 A2 A2 de|
+f2 gf e2 fe|dcde g2 ((3e^fg)|aged cAdc|A2 A2 A2|e^f|
+g2 ga gede|g^fga gede|a2 ab c'bag|e2 aa a2 ag|
+fagf egfe|dcde eaaf|gfed cAdc|A2 A2 A2||
+
+
+
+
+
+
+K:C
+~G3E GAcd|edcB cA~A2|GE~E2 GAcd|1 edcB c3B:|2 edcB c3d||
+|:eg~g2 ageg|gede cA~A2|1 eg~g2 ea~a2|gabg ~a3g:|2 GE~E2 GAcd|edcB c3B||
+
+
+
+
+
+
+K:C
+V:1
+Bd |eA AB AA |eA AA Bd |eA AB AA |
+ed BG Bd  |eA AB AA |eA AA BA |GA Bd2 e|
+d BA A :|B d|e aa g2 e|d BA GB d|
+e aa g2 a|b ag a2 g |e aa ba g|e dB GB A|
+G AB d2 e|d BA AB d |e aa g2 e|d BA GB d|
+e aa g2 a|b ag a2 g |e c'c' ba g|e dB GB A|
+G AB d2 e|d BA A|]
+
+
+
+
+
+
+K:C
+d|cded cAGB|Adde dcAB|cded cAGE|FAGE FGAB|cded cAGB|Adde dcAB|cded cAGE|F2(GE) ({F}ED)D2||
+||egge (TcBc).d|eaag aged|egge dfed|cAGA c2(cd)|egge (TcBc).d|eaab agef|gefd (3efg ed|cAGA c3|]
+
+
+
+
+
+
+K:C
+cEE GEE|cEE GAB|cEE GED|EAA A2B|
+cEE GEE|cEE GAB|cBA GED|EAA A2B:|
+|:cde g2e|gea ged|cde ged|eaa age|
+cde g2e|gea ged|cBA GED|EAA A2B:|
+
+
+
+
+
+
+K:C
+"Slow"\
+g>f|\
+e2 dB AGED|G3 A B2 (3def|gede B2 A2|A4:|g>a|
+b3 a gede|g2 a2 a2 ga|b3 a gede|g6 ag|
+e2 dB AGED|G3 A B2 (3def|gede B2 A2|A6||
+
+
+
+
+
+
+K:C
+V:1
+ge cd cA |c2 AG EG |cB cd cd |ed ed ef |
+ge cd cA |c2 AG EG |cB cd ef |1 ec cc ef :|2
+ec cc2 d|| |:e ge fa f|e ge ed c|e de fe f|
+g ec dc d|e ge fa f|e ge ed c|e de dc d|
+|1 e cc c2 d:|2 e cc c2 z|
+
+
+
+
+
+
+K:C
+D2A,D FEFG| Add^c d2de| f2df edcA| dcAG FDCE|\
+DA, A,/A,/A, FEFG | Ad^cA d2de |\
+f2gf edcA | dcAG FDD2::\
+Ad d/d/d ^fded | c2Gc EcGc | Ad d/d/d ^fded |\
+cBcd edd2 | a/a/a ^ga ABcA | dcAG FDCE |\
+D2DE FEFG | Ad^cA d4 :|**
+
+
+
+
+
+
+K:C
+c2cB cGEG| FADF EFGA| _BABG c=Bcd| egdc BGAB|\
+c2cB cGEG| F2DF EFGA| _B2GA =BGFE|DG,B,D C2EG::\
+cBce g^fag| ^fgec GFEG| F2DF EFGA| Bcde fdBd |\
+cBce g^fag|^fgec GFEG| F2DF E2CE|DG,B,DC4:|**
+
+
+
+
+
+
+K:C
+D2A,D FEFG| Add^c d2de| f2df edcA| dcAG FDCE|\
+DA, A,/A,/A, FEFG | Ad^cA d2de |\
+f2gf edcA | dcAG FDD2::\
+Ad d/d/d ^fded | c2Gc EcGc | Ad d/d/d ^fded |\
+cBcd edd2 | a/a/a ^ga ABcA | dcAG FDCE |\
+D2DE FEFG | Ad^cA d4 :|
+
+
+
+
+
+
+K:C
+c2cB cGEG| FADF EFGA| _BABG c=Bcd| egdc BGAB|\
+c2cB cGEG| F2DF EFGA| _B2GA =BGFE|DG,B,D C2EG::\
+cBce g^fag| ^fgec GFEG| F2DF EFGA| Bcde fdBd |\
+cBce g^fag|^fgec GFEG| F2DF E2CE|DG,B,DC4:|
+
+
+
+
+
+
+K:C
+c2CD EG~G2|Addc dfed|c2cA GAcA|GAGE DCA,C|
+G,C~C2 EG~G2|Addc dfed|c2cA GAcA|GEDG ECC2:|
+|:c2ec gceg|gedc AGAB|c2ec gcec|Addc dfed|
+c2ec gceg|gedc ABcd|eg~g2 ea~a2|1 gedc AGAB:|2 "variation"gedf ec (3G,A,B,||
+"variations"
+~C3D EG~G2|"S"Adde dcAB|c2cG ABcA|AGEC DA,CA,|
+G,C~C2 EG~G2|Adde dcAB|~c3G AdcA|GEDF ECCA,|
+G,C~C2 EG~G2|Addc ~d3B|c2BG ABcA|GAGE DA,CA,|
+G,C~C2 ECEG|Adde dcAB|c2Gc AccA|GEDF ECC2||
+|:c2ec gcea|gede dcAB|c2ec gcec|Adde dcAB|
+c2ec gcea|gedc ABcd|eg~g2 ea~a2|1 gedc BGAB:|2 gedB cAGE||
+CB,CD EG~G2"D.S."|
+
+
+
+
+
+
+K:C
+Bd|"Em"e2 e2 e2 de|"G"g2 g2 "D"a2 ga|"Em"b2 ag e2 dB|"D"d6 Bd|\
+"Em"e2 e2 e2 de|"G"g2 g2 "D"a2 ga|"Em"b2 ag "D"e2 d2|"Em"e6 bb|
+"G"d'2 b2 b2 ag|"D"a2 a2 "G"a2 ga|"Em"b2 ag e2 dB|"D"d6 Bd|\
+"Em"e2 e2 e2 de|"G"g2 g2 "D"a2 ga|"Em"b2 ag "D"e2 d2|"Em"e6||
+
+
+
+
+
+
+K:C
+c2c (d/e/f)d|ecA GED|c2c (d/c/A)F|GEE GAB|c2c (d/e/f)(d|e)cA (AB)c|d^cA GEA|[1DED D^FA:|[2DED (d/c/AG)||
+K:D
+||F2F DGG|DFA (GF)E|DFF DF(A|B)GE E(AG)|F2F G2(G|A)GA (f/e/d)f|ecA GEA|[1DFA (d/c/AG):|[2DED Dcd||
+||d2d (DF)A|G2G (EF)A|Bcd DFA|BGE EFA|dfd cec|(B/c/d)(B A)FD|DFA DdB|ABG FED:|
+
+
+
+
+
+
+K:C
+"Slow"\
+(A/B/c) B2 A2| (eA) ^G2AB| cd "tr"d3(c/d/)| e6|\
+(fe) (ed) (dc)| ac B2c2| d/e/f e2 "tr"d2| c4:|
+^c2 c3c| d4 e2| (fe) (dc) (BA)| ^G4 "Segno"E2|\
+^F4 (F/^G/A)| (^G^F) GA GG| ^G2 A2 A/B/c| \
+(BA) (Bc) (BB)| c4 (c/d/e)|
+(fdcdBd)| (ecBcAc| dBAB^GA| F2) HE4|\
+(fe )(ed)(dc)| BE^GBde| c/B/A B4| "D.S."A6 |]
+
+
+
+
+
+
+K:C
+"Siciliano" G|\
+c2c cBA| G2G G2G| A2d BAB| c2c c2G|\
+c2c cBA| G2G G2G| A2d BAB| c2c c2::\
+G|\
+d2f e2c| BAB c2G| d2f e2c| BAB cec|\
+A2A cBA| G2E G2G| c2c edc| g2g Hgec|\
+A2A BAB| c2c c2:|
+
+
+
+
+
+
+K:C
+dc|\
+BBB BBB|c2 A A2 G|F2 A A2 F|g3 fdc|
+BBB BBB|c2 A dcA/G/|F2 G AFA|{f}g3 g2::G|
+A2 g fde|f2 d def|g2 g agf|f Hg2 fdc|
+B2 g fde|f2 d def|g2 g agf|f g2 fdc||
+
+
+
+
+
+
+K:C
+EAAA A3 B|cAdA cAGE|Addd d3 e|fdec dcAG|
+EAAA A3 d|fdec dcAG|AddA cAGF|GEcE D2D2||
+f2 fd edcA|c2 cd cA A2|f2 fd edcA|Addc defg|
+af ~f2 ge ~e2|fdec dcAG|AddA cAGF|GEcE D2 D2||
+
+
+
+
+
+
+K:C
+"Slow."\
+A|AB A2 AG|A>Bc2 e2|e>fe2 ce|d>cB3 c|
+A>BA2 AG|AB c2 e2|eg e2 dB|A>B A3||e/f/|
+gf e>f (3efg|fe d>e (3def|edB>edc|d2 B>AGB|
+A>B A2 AG|ABc2 e2|eg e2 dB|A>B A3||
+
+
+
+
+
+
+K:C
+B2 c AGF|DGG AGA|B3 cAc|d2 g fdc|
+B2 c AGF|DGG AGA|Bcd/B/ cAF|AGG G2 z:|
+BAB cBc|d2 g fde|f3 g3|a2 g fdc|
+BAB cBc|d2 g fdc|Bcd/B/ cAF|AGG G2 z|
+BAB cBc|d2 g fde|f3 g3|a2 g fdc|
+dgg agg|a2 g fdc|Bcd/B/ cAF|AGG G2 z||
+
+
+
+
+
+
+K:C
+B/c/|\
+dDE|FGA|AGG|G2 A|GGG|f>f f|edc|d2 c|
+BAG/F/|GBd/e/|fdB|c2 B/c/|dDE|FGA|AGG|G2||
+
+
+
+
+
+
+K:C
+AB|\
+c2Ac BAGB|AGED GED2|EAAB cBcd|eaaf gfed|\
+cBAc BAGB|
+AGED GED2|\
+EAAB cBcd|edcB A4:: \
+eaag ageg|aebe aede|\
+dg (3ggg gede|
+gdad gede|\
+ea (3aaa aede|aebe ae (3eee|\
+ge (3eee ae (3eee|bagf gfed:|
+
+
+
+
+
+
+K:C
+M:6/4
+G|\
+c3d ed c4G2| A3G ED G4 CD|\
+M:4/4
+E3D/[C/E/] C3D| C4 C3c|\
+G3D G2 (3ABc| d3c e3e/d/|
+c3G AGED| (G4G3)G| \
+G3E G2(3ABc| d3c e3e/d/| c3G AGED| (G4 G3)G|
+M:6/4
+c3d ed c4G2| A3G ED G4CD|\
+M:4/4
+E2DC C3D| (C4 C3)|]
+W:This is also the tune to a song, "the man who invented the submarine"
+:-
+W:
+W:In December he was born
+W:On the wild washed coast of Clare
+W:Not far from the cliffs of Moher
+W:That hang so high in the air.
+W:The scar there stretches far away
+W:From Hag's Head to Rineen
+W:But you're glad to hear of the man from Clare
+W:That invented the Submarine.
+W:
+W:For 40 years he taught at home
+W:In his dear native land,
+W:Til emigrating he sailed away
+W:Into a foreign land
+W:Patterson, New Jersey. In work he became quite keen
+W:It was there that man he formed the plan
+W:and they called her the submarine.
+W:(spoken) and after a while she became a most dangerous craft
+W:and nearly drove the sailors half daft.
+
+
+
+
+
+
+K:C
+G|"C"G2GA|"C"GEEE|"Am"A2AB|"Am"AE2A|
+w:As I was a-go-in' o-ver Gil-ga-ra moun-tain, I
+"F"A2AB|"F"ccBA|"C"GGcB|"C"AE3|
+w:spied Colo-nel Far-rell and his mo-ney he was coun-tin',
+"C"G>GGA|"C"GE2E|"Am"A>AAB|"A"AEEE|
+w:First I drew my pis-tols and then I drew my ra-pier, say-in':
+"F"z AAB|"F"ccBA|"C"GGcB|"C"AE||GG|
+w:"Stand and de-li-ver for I am your bold de-cei-ver". Mu-sha
+"G7"DDDD|"G7"D2 z2|"C"z EE>D|"C"EFG2|
+w:ring-um du-ram da, whack fol the dad-dy-o,
+"Am"z AA>G|"F"ABcA|"C"GE"G"DD|"C"C4-|"C"C z2|]
+w:whack fol the dad-dy-o, there's whis-key in the jar.
+
+W:
+W:As I was a goin' over Gilgara mountain,
+W:I spied Colonel Farrell and his money he was countin',
+W:First I drew my pistols and then I drew my rapier, sayin':
+W:"Stand and deliver for I am your bold deceiver".
+W:  Musha ringum duram da,
+W:  whack fol the daddyo,
+W:  whack fol the daddyo,
+W:  there's whiskey in the jar.
+W:
+W:
+W:He counted out his money and it made a pretty penny,
+W:I put it in my pocket to take home to darlin' Jenny.
+W:She sighed and swore she loved me and never would deceive me,
+W:but the devil take the women for they always lie so easy.
+W:  Musha...
+W:
+W:I went into me chamber all for to take a slumber,
+W:to dream of gold and girls and of course it was no wonder,
+W:me Jenny took me charges and she filled them up with water,
+W:called on Colonel Farrell to get ready for the slaughter.
+W:  Musha...
+W:
+W:Next morning early before I rose for travel,
+W:acame a band of footmen and likewise Colonel Farrell,
+W:I goes to draw my pistol for she'd stole away my rapier.
+W:But a prisoner I was taken I couldn't shoot the water.
+W:  Musha...
+W:
+W:They put me into jail with a judge all awritin'
+W:robbin' Colonel Farrell on Gilgarra Mountain.
+W:But they didn't take me fists and I knocked the jailer down, and bid a
+farewell to this
+W:tight fisted town.
+W:  Musha...
+W:
+W:I'd like to find me brother the one that's in the army
+W:I don't know where he's stationed in Cork or in Killarney.
+W:Together we'd go roamin' o'er the mountains of Kilkenny,
+W:and I swear he'd treat me fairer than me darlin' sportin' Jenny.
+W:  Musha...
+W:
+W:There's some takes delight in the carriages and rollin',
+W:some takes delight in the hurley or the bollin'.
+W:But I takes delight in the juice of the barley, courtin'
+W:pretty maids in the mornin', oh so early.
+W:  Musha...
+
+
+
+
+
+
+
+K:C
+"Slow" e/d/|\
+c2G cde| f2e def| gag {g}f2e| {e}d3 z2e/d/|\
+c2G cde| f2e def| gag efd| c3 z2::
+B/c/|\
+dec dac| egc def| efg age| {e}d3 z2e/f/|\
+g2a g2c'| g2f efg| abc' efd| c4 z:|
+
+
+
+
+
+
+K:C
+"G-3"  d2 ({cd}(c)B)    (B_A)     (BA) |           (G3_   A     GF     G2)||\
+"Bb-3" F2      (FE)      F2        G2  |"C"         G6                 z2 ||
+"Eb-3"_B2      (BA) ({B}(A)G)      GF  |"Bb-3"     (F E2  F     ED "Em"E2)||\
+"C-3"  G2       F2   ({F}E)_D     (ED) |"C"         C8                    ||
+"F-3"  c2       cB       c2        d_e |"G-3"({d_e}(d)c- c2- "C"c3)       ||\
+(B|"G-3"  d2)     (cB)     (B_A) ({c}(B)A)|"G"         G8                    ||
+"Bb-3" F2      (FE)      F2        G2  |"C"         G6                 z2 ||\
+"G-3"  d2 ({cd}(c)B)    (B_A)     (BA) |"G"         G6                 z2 ||\
+"Bb-3" F2      (FE)      F2        G2  |"C"         G8                    ||
+"Eb-3"_B2      (BA) ({B}(A)G)     (GF) |"C"        (E3    F     E_D    E2)||\
+"Bb-3" G2      (GF) ({F}(E)_D)    (ED) |"C"         C8                    |]
+
+
+
+
 
 
 K:

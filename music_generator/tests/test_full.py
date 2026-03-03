@@ -3,10 +3,10 @@
 import copy
 from src import data, trainer, generator
 
-KEY = 'Am'
-DEGREE = 10
-INPUT_SEED = ['G']
-INPUT_LENGTH = 20
+KEY = 'C'
+DEGREE = 3
+INPUT_SEED = ['c']
+INPUT_LENGTH = 5
 FILTERED_DATA = "melodies/gdata.txt"
 
 def check_note(gen, melody, g_i, m_i, limit, count):
