@@ -20,4 +20,4 @@ Test_full varten tein testidatatiedoston full_test_data.txt. Datan käsittelyä 
 
 ## Miten voi toistaa?
 
-Testit voi toistaa vain ajamalla ne, koska ne sisältävät kaikki syötteet itsessään.
+Testit voi toistaa vain ajamalla ne, koska ne sisältävät kaikki syötteet itsessään. Test_full.py testit menevät läpi vain C ja Am sävellajeissa, koska niissä ei ole vaadittu apply_key - metodin käyttöä. Sävellaji testeissä valmiiksi C.
