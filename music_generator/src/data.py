@@ -2,7 +2,7 @@
 and parsing an abc-notation song into the desired format."""
 
 FILES = {'folk': 'melodies/ireland.txt',
-         'bach': 'melodies/bach.txt',
+         'bach': 'melodies/realbach.txt',
          'test filter': 'testdata/filter_test_data.txt',
          'test full': 'testdata/full_test_data.txt'}
 

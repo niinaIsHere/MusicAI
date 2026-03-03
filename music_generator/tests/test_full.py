@@ -3,10 +3,10 @@
 import copy
 from src import data, trainer, generator
 
-KEY = 'C'
-DEGREE = 3
-INPUT_SEED = ['c']
-INPUT_LENGTH = 5
+KEY = 'Am'
+DEGREE = 10
+INPUT_SEED = ['G']
+INPUT_LENGTH = 20
 FILTERED_DATA = "melodies/gdata.txt"
 
 def check_note(gen, melody, g_i, m_i, limit, count):
@@ -61,6 +61,7 @@ def test_pipeline_to_data():
 
     for i in range(len(gen)-DEGREE):
         found = False
+        melody_index = 0
         for melody in melodies:
             if found:
                 break
@@ -68,4 +69,5 @@ def test_pipeline_to_data():
                 if check_note(gen, melody, i, m, DEGREE+1, 0):
                     found = True
                     break
+            melody_index += 1
         assert found

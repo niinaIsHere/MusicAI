@@ -44,15 +44,11 @@ def generate(trained_trie, seed, length, key, degree):
     and key for 'transposing' the generated melody. Returns the generated melody
     as note names in a list.
     """
-    print("DEGREE", degree)
-    print("LENGTH", length)
     generated_melody = list(seed)
     if len(seed) > degree:
         seed = seed[len(seed)-degree:]
     for i in range(length):
         result = trained_trie.find(seed)
-        print(seed)
-        print(result)
         if result is None:
             print('Nothing like this has ever existed')
             break
