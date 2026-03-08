@@ -6,7 +6,7 @@ MusicAI sisältää documentation ja music_generator kansiot. music_generator si
 
 Ohjelma on jaettu eri moduuleihin käyttötarkoituksen mukaan. Moduuleja on kuusi: data, input_validation, input, trie, trainer ja generator.
 
-Data.py:ssa käsitellään data valmiiksi ohjelman käyttöön. Siellä mm. suodatetaan sopiva sävellaji alkuperäisestä datatiedostosta käyttäjän syötteen perusteella. Sopivista kappaleista parsetaan melodiat ohjelman ymmärtämään muotoon.
+Data.py:ssa käsitellään data valmiiksi ohjelman käyttöön. Siellä mm. suodatetaan sopiva sävellaji alkuperäisestä datatiedostosta käyttäjän syötteen perusteella. Sopivista kappaleista parsetaan melodiat ohjelman ymmärtämään muotoon. Datasettejä on kaksi vaihtoehtoa, joista käyttäjä valitsee toisen.
 
 Input-moduuli hoitaa käyttäjältä syötteiden pyytämisen. Input_validionin avulla tarkistetaan, että syötteet kelpaavat.
 
@@ -31,9 +31,9 @@ Aikavaativuus O(n) selittyy sillä, että generointi tekee aina niin sanotusti s
 
 ## Puutteet ja parannukset?
 
-Datatiedostot sisältää melko eri määrän kappaleita eri sävellajeissa, joten eri sävellajit eivät ole ns. tasa-arvoisessa asemassa datan suhteen. Bach-kappaleita ei ole ollenkaan sävellajeissa Fm tai Bm, joka on selkeä puute. Muutenkin mollisävellajeja on Bach-datasetissä vähän verrattuna duureihin. Lisäksi datasettejä on nyt vain kaksi ja lisää vaihtoehtoja olisi ollut hyvä.
+Datatiedostot sisältävät melko eri määrän kappaleita eri sävellajeissa, joten eri sävellajit eivät ole ns. tasa-arvoisessa asemassa datan suhteen. Bach-kappaleita ei ole ollenkaan sävellajeissa Fm tai Bm, joka on selkeä puute. Muutenkin mollisävellajeja on Bach-datasetissä vähän verrattuna duureihin. Lisäksi datasettejä on nyt vain kaksi ja lisää vaihtoehtoja olisi ollut hyvä.
 
-Parannus olisi, että olisi saanut mukaan generoitua rytmin.
+Yksi puute ohjelmassa on, että kappaleiden etumerkit transponoidaan mukaan tietyllä tavalla tarpeettomasti, koska abc-notaatiossa esim 'K:G' tarkoittaa jo sitä, että tiedostetaan esimerkiksi f olevan f#. Apply_key - metodin olisi siis voinut jättää poiskin, kunhan output.txt sisällytettäisiin sävellajin merkkaava rivi.
 
 ## Laajojen kielimallien käyttö:
 
